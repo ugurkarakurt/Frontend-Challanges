@@ -1,4 +1,4 @@
-## _Frontend simple challanges_
+## Frontend simple challanges
 Visit:
 - [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/responsive_navbar/).
 ![image info](screenshot.png)
