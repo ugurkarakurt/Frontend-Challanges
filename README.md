@@ -2,7 +2,12 @@
 
 - [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/responsive_navbar/).
 
-![image info](screenshot.png)
+![image info](Responsive-Navbar/screenshot.png)
+<hr>
+
+- [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/Moonlight-Parallax-Effect/).
+
+![image info](Moonlight-Parallax-Effect/screenshot.png)
 <hr>
 
 ## Features
