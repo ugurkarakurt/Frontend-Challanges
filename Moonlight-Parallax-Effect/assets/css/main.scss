@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#2b1055, #7597be);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+
+    .logo {
+        color: #b4aee8 !important;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        &:hover {
+            color: #ffffff !important;
+        }
+    }
+
+    ul {
+        @extend %center;
+
+        li {
+            list-style: none;
+            margin-left: 20px;
+
+            a {
+                color: #1c0522 !important;
+                text-decoration: none;
+                padding: 6px 15px;
+                color: #b4aee8 !important;
+                border-radius: 2px;
+
+                &:hover {
+                    color: #ffffff !important;
+                }
+            }
+
+            .active {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+main {
+    position: relative;
+
+    section {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+
+        &:first-child {
+            padding: 100px;
+            @extend %center;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100px;
+                bottom: 0;
+                background: linear-gradient(to top, #1c0522, transparent);
+                z-index: 1000;
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                pointer-events: none;
+            }
+
+            #moon {
+                mix-blend-mode: screen;
+            }
+
+            #mountains_front {
+                z-index: 10;
+            }
+
+            #title {
+                position: absolute;
+                color: #ffffff;
+                white-space: nowrap;
+                font-size: 5vw;
+                z-index: 9;
+            }
+
+            #explore_btn {
+                position: relative;
+                top: 100px;
+                text-decoration: none;
+                padding: 8px 30px;
+                border-radius: 2px;
+                color: #b4aee8;
+                font-size: 1.5em;
+                z-index: 9;
+
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+
+        }
+
+        &:last-child {
+            position: relative;
+            padding: 100px;
+            background-color: #1c0522;
+            @extend %center;
+
+            .card {
+                position: relative;
+                width: 320px;
+                height: 400px;
+                background-color: transparent;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 30px;
+                padding: 20px 30px;
+                transition: 0.25s ease-in-out;
+                display: none;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #2b1055;
+                    /* fallback for old browsers */
+                    background: -webkit-linear-gradient(45deg, #2b1055, #6a1b9a);
+                    /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(45deg, #2b1055, #6a1b9a);
+                    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #2b1055;
+                    /* fallback for old browsers */
+                    background: -webkit-linear-gradient(45deg, #2b1055, #6a1b9a);
+                    /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(45deg, #2b1055, #6a1b9a);
+                    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    filter: blur(30px);
+                }
+
+                span {
+                    position: absolute;
+                    top: 6px;
+                    right: 6px;
+                    bottom: 6px;
+                    left: 6px;
+                    background-color: rgba(0, 0, 0, 0.6);
+                }
+
+                .card-header {
+                    position: relative;
+                    z-index: 1;
+                    height: 50%;
+                    @extend %center;
+
+                    h3 {
+                        color: #b4aee8;
+                    }
+                }
+
+                .card-body {
+                    position: relative;
+                    z-index: 1;
+                    height: 25%;
+                    @extend %center;
+
+                    p {
+                        text-align: center;
+                        color: #b4aee8;
+                    }
+                }
+
+                .card-footer {
+                    position: relative;
+                    z-index: 1;
+                    @extend %center;
+
+                    a {
+                        padding: 16px 10px;
+                        border-radius: 2px;
+                        color: #b4aee8;
+
+                        &:hover {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
