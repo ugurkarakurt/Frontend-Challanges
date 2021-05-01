@@ -22,7 +22,8 @@ h1 {
   position: absolute;
   z-index: 1;
   color: #ffffff;
-  opacity: 0.7; }
+  opacity: 0.7;
+  transition: all .3s ease; }
 
 nav {
   position: relative;
@@ -30,12 +31,12 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 5rem; }
   nav label {
     color: #ffffff;
     font-size: 2rem;
     line-height: 80px;
-    padding: 0 100px;
     font-weight: 700; }
   nav ul {
     display: flex;
@@ -59,23 +60,31 @@ nav {
         color: #000; }
   nav .checkbtn {
     position: absolute;
-    right: 0;
+    right: 30px;
     font-size: 2rem;
     color: #ffffff;
-    margin-right: 0 auto;
     cursor: pointer;
-    display: none; }
+    display: none;
+    text-align: center; }
+    nav .checkbtn i {
+      position: relative;
+      right: 20px; }
   nav #check {
     display: none; }
 
+@media (max-width: 1410px) {
+  h1 {
+    font-size: 4rem; } }
 @media (max-width: 952px) {
   label {
-    font-size: 30px;
-    padding-left: 50px; }
+    font-size: 30px; }
 
   nav ul li a {
     font-size: 1rem; } }
 @media (max-width: 858px) {
+  h1 {
+    font-size: 2rem; }
+
   nav .checkbtn {
     display: block; }
   nav ul {
