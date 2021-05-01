@@ -158,7 +158,8 @@ main {
         border-radius: 2px;
         color: #b4aee8;
         font-size: 1.5em;
-        z-index: 9; }
+        z-index: 9;
+        background-color: #6a1b9a; }
         main section:first-child #explore_btn:hover {
           color: #ffffff; }
     main section:last-child {
