@@ -1,9 +1,7 @@
-## _Frontend simple challanges_
+## Frontend simple challanges
 
-https://travis-ci.org/joemccann/dillinger.svg?branch=master
-
-Visit:
 - [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/responsive_navbar/).
+
 ![image info](screenshot.png)
 <hr>
 
