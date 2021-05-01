@@ -1,5 +1,7 @@
 // Variables 
 const header = document.querySelector("header");
+const moonIcon = document.querySelector(".fa-moon");
+
 //images
 let stars = document.getElementById("stars");
 let moon = document.getElementById("moon");
@@ -12,7 +14,9 @@ let explore_btn = document.getElementById("explore_btn");
 let cards = document.querySelectorAll(".card");
 //Add Event Listeners -- IIFE 
 (function addEventListeners() {
-    window.addEventListener("scroll", windowScroll)
+    window.addEventListener("scroll", windowScroll);
+    moonIcon.onclick = toggleMenu;
+
 })()
 
 function windowScroll() {
@@ -43,5 +47,15 @@ function windowScroll() {
             cards[1].classList.add("animate__delay-1s")
             cards[2].classList.add("animate__delay-2s")
         }
+    }
+}
+
+function toggleMenu() {
+    const dropdownMenu = document.querySelector(".dropdown-list");
+    console.log(dropdownMenu);
+    if (dropdownMenu.classList.contains("display")) {
+        dropdownMenu.classList.remove("display");
+    } else {
+        dropdownMenu.classList.add("display");
     }
 }

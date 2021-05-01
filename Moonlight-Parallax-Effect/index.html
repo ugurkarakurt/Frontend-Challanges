@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">,
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Document</title>
@@ -14,16 +15,27 @@
 <body>
     <header>
         <a href="#" class="logo waves-effect purple darken-3 btn animate__animated animate__bounceInDown">Logo</a>
-        <ul>
-            <li><a href="#"
-                    class="waves-effect purple darken-3 active animate__animated animate__bounceInRight">Home</a>
+        <ul class="nav-menu">
+            <li><a href="#" class="animate__animated animate__bounceInRight active">Home</a>
             </li>
-            <li><a href="#" class="waves-effect purple darken-3 animate__animated animate__bounceInRight">About</a>
+            <li><a href="#" class="animate__animated animate__bounceInRight">About</a>
             </li>
-            <li><a href="#" class="waves-effect purple darken-3 animate__animated animate__bounceInRight">Work</a></li>
-            <li><a href="#" class="waves-effect purple darken-3 animate__animated animate__bounceInRight">Contact</a>
+            <li><a href="#" class="animate__animated animate__bounceInRight">Work</a></li>
+            <li><a href="#" class="animate__animated animate__bounceInRight">Contact</a>
             </li>
         </ul>
+        <div class="checkbox-wrapper">
+            <i class="far fa-moon"></i>
+            <div class="dropdown">
+                <ul class="dropdown-list display">
+                    <li class="list-item"><a href="#" class="animate__animated animate__bounceInRight active">Home</a>
+                    </li>
+                    <li class="list-item"><a href="#" class="animate__animated animate__bounceInRight">About</a></li>
+                    <li class="list-item"><a href="#" class="animate__animated animate__bounceInRight">Work</a></li>
+                    <li class="list-item"><a href="#" class="animate__animated animate__bounceInRight">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <section>
@@ -76,7 +88,6 @@
         </section>
     </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>
 
