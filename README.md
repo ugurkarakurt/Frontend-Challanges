@@ -18,6 +18,12 @@
 <hr>
 <br>
 
+- [Sidebar Menu](https://ugurkarakurt.github.io/Frontend-Challanges/Twitter_Tweet_Box/).
+
+![image info](Twitter_Tweet_Box/assets/images/screenshot.png)
+<hr>
+<br>
+
 ## Features
 
 I will share simple but useful methods under this repository day by day.
