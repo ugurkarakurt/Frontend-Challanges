@@ -14,7 +14,7 @@
 
 - [Sidebar Menu](https://ugurkarakurt.github.io/Frontend-Challanges/Sidebar_Menu/).
 
-![image info](Sidebar_Menu/screenshot.png)
+![image info](Sidebar_Menu/assets/images/screenshot.png)
 <hr>
 <br>
 
