@@ -13,6 +13,7 @@
   text-decoration: none; }
 
 body {
+  overflow: hidden;
   font-family: 'Poppins', sans-serif; }
 
 .sidebar {
@@ -34,7 +35,7 @@ body {
     .sidebar .icon #background {
       transition: all .3s ease;
       z-index: 99;
-      height: 300px; }
+      height: 250px; }
   .sidebar::before {
     z-index: 1;
     content: "";
