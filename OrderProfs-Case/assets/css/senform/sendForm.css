@@ -1,0 +1,61 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smooth: auto;
+  -moz-osx-font-smooth: auto; }
+  body .swal2-container.swal2-backdrop-show,
+  body .swal2-container.swal2-noanimation {
+    background-color: #ffffff;
+    color: #000000; }
+  body .swal2-icon.swal2-success .swal2-success-ring {
+    border: none; }
+  body .swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)
+  > .swal2-modal {
+    transform: scale(1.5); }
+  body .swal2-icon.swal2-success {
+    border-color: #ffffff; }
+  body .swal2-icon.swal2-success [class^="swal2-success-line"] {
+    background-color: #005eac; }
+  body .swal2-title {
+    margin-top: -39px;
+    font-size: 20px;
+    color: #2b2222;
+    margin-bottom: 20px; }
+  body .swal2-content h6 {
+    font-weight: lighter;
+    color: #000000;
+    margin: 0; }
+  body .swal2-content h5 {
+    font-weight: normal;
+    color: #000000;
+    margin: 0; }
+  body .swal2-styled.swal2-confirm {
+    padding-top: 9px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.15);
+    width: 250px;
+    height: 40px;
+    background-color: #005eac;
+    border-radius: 46px;
+    border: 1px solid #005eac;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none; }
+    body .swal2-styled.swal2-confirm:hover {
+      background-color: #003866; }
+    body .swal2-styled.swal2-confirm:active {
+      box-shadow: none;
+      position: relative;
+      top: 1px; }
+    body .swal2-styled.swal2-confirm a {
+      text-decoration: none;
+      color: #ffffff; }
+  body #clickOff {
+    position: fixed;
+    width: 100%;
+    height: 100vh; }
+  @media only screen and (max-width: 768px) {
+    body .swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)
+    > .swal2-modal {
+      transform: scale(1.1); } }
+
+/*# sourceMappingURL=sendForm.css.map */

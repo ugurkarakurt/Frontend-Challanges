@@ -1,0 +1,266 @@
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    .container {
+        width: 280px;
+        padding: 50px 12px 12px 12px;
+        section {
+            padding: 0px;
+
+            &:nth-child(1) {
+                h3 {
+                    font-weight: normal;
+                }
+                p {
+                    font-size: 11px;
+                }
+            }
+            &:nth-child(2) {
+                flex-direction: column;
+                .card {
+                    width: 250px;
+                    height: 120px;
+                    display: grid;
+                    margin-bottom: 24px;
+                    &:nth-child(2) {
+                        .card-header {
+                            span {
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                    .card-header {
+                        justify-content: flex-start;
+                        padding: 0;
+                        height: 16px;
+                        grid-area: 1 / 2 / span 1 / span 5;
+                        .card-title {
+                            margin-left: 10px;
+                        }
+                    }
+                    .card-body {
+                        height: 101px;
+                        width: 227px;
+                        display: flex;
+                        justify-content: flex-end;
+                        grid-area: 2 / 2 / span 1 / span 5;
+
+                        .image-wrapper {
+                            .computer {
+                                height: 42px;
+                                left: 16px;
+                                top: 32px;
+                            }
+                            .computer-1 {
+                                height: 42px;
+                                left: 12px;
+                                top: 32px;
+                            }
+                            .smartPhone {
+                                height: 26px;
+                                left: 64px;
+                                top: 50px;
+                            }
+                            .computer-2 {
+                                height: 36px;
+                                top: 38px;
+                                left: 32px;
+                            }
+                            .smartPhone-1 {
+                                height: 26px;
+                                top: 50px;
+                                left: 78px;
+                            }
+                            .credit-card {
+                                height: 20px;
+                                left: 60px;
+                                top: 13px;
+                            }
+                            .picture {
+                                height: 12px;
+                                left: 24px;
+                                top: 20px;
+                            }
+                            .cash-register {
+                                height: 18px;
+                                top: 56px;
+                                left: 10px;
+                            }
+                        }
+                        .price {
+                            padding-top: 0px;
+                            border-top: none;
+                            padding: 30px 34px;
+                            height: 100%;
+                            .total-price {
+                                font-size: 16px;
+                                text-align: center;
+                            }
+                            .one-time-price {
+                                font-size: 8px;
+                                border-bottom: 1px solid #e0e0e0;
+                                padding-bottom: 3px;
+                            }
+                        }
+                        .total-price-selected {
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                        .one-time-price-selected {
+                            font-size: 8px;
+                            border-bottom: 1px solid #000000;
+                            padding-bottom: 3px;
+                        }
+                    }
+                    .card-footer {
+                        margin-right: 8px;
+                        border: none;
+                        padding: 0;
+                        grid-area: 1 / 1 / span 2 / span 1;
+                    }
+                }
+            }
+            &:nth-child(3) {
+                margin-top: 10px;
+                table {
+                    thead {
+                        tr {
+                            height: 32px;
+                            th {
+                                border: none !important;
+                                position: relative;
+                                h6 {
+                                    font-weight: normal;
+                                    position: absolute;
+                                    padding-left: 0;
+                                    bottom: -6px;
+                                    left: 0px;
+                                    margin: 0;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            height: 70px;
+                            border-top: 1px solid #e0e0e0;
+                            td {
+                                border: none;
+                                position: relative;
+                                &:first-child {
+                                    width: 20%;
+                                    div {
+                                        justify-content: center;
+                                        input {
+                                            width: 14px;
+                                            height: 14px;
+                                        }
+                                        label {
+                                            width: 45px;
+                                            top: 5px;
+                                            position: absolute;
+                                            font-size: 10px;
+                                            left: 41px;
+                                        }
+                                    }
+                                }
+                                &:last-child {
+                                    width: 80%;
+                                    padding: 0;
+                                    position: relative;
+                                    font-size: 7px;
+                                    right: 10px;
+                                    vertical-align: bottom;
+
+                                    p {
+                                        position: absolute;
+                                        margin: 0;
+                                        top: 25px;
+                                    }
+                                }
+                            }
+                            &:first-child {
+                                img {
+                                    width: 14px;
+                                    height: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {
+                form {
+                    .form-wrapper {
+                        .form-group {
+                            padding: 8px;
+                            padding-bottom: 16px;
+                            .input-wrapper {
+                                input,
+                                select {
+                                    border-radius: 30px;
+                                    width: 240px !important;
+                                    height: 30px;
+                                    font-size: 13px;
+                                }
+                                select {
+                                    padding-top: 4px;
+                                    padding-left: 17px;
+                                }
+                                .floating-label {
+                                    font-size: 13px;
+                                    top: 5px;
+                                }
+                                select {
+                                    background-position: calc(100% - 20px) 10px, calc(100% - 10px) 10px, 100% 0;
+                                }
+                            }
+                        }
+                        &:nth-child(1) {
+                            h6 {
+                                padding-left: 0px;
+                                font-weight: normal;
+                                margin-bottom: 5px;
+                            }
+                            .form-group {
+                                &::before {
+                                    top: 20px;
+                                }
+                            }
+                        }
+                        &:nth-child(2) {
+                            &::before {
+                                top: 24px;
+                            }
+                            h6 {
+                                padding-left: 0px;
+                                font-weight: normal;
+                                margin-bottom: 6px;
+                            }
+                            .form-group {
+                                padding-top: 30px;
+                                .form-title {
+                                    top: -20px;
+                                    left: 60px;
+                                    font-size: 14px;
+                                }
+                            }
+                            .form-info {
+                                margin-top: 10px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .button-wrapper {
+                    button {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
