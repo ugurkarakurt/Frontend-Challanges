@@ -1,0 +1,262 @@
+body {
+    background: linear-gradient(to right, #000000, #434343) !important;
+}
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 330px;
+    margin-top: 20px;
+}
+
+.container>a {
+    color: #ffffff;
+}
+
+.container>a:hover {
+    text-decoration: none;
+}
+
+.calculator {
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    width: 330px;
+    height: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #434343);
+    border-radius: 15px;
+    box-shadow: -50px 0px 100px 0px #676767;
+    justify-content: center;
+    position: relative;
+    box-shadow: -1px -1px #0a0a0a, 1px 1px #fff, -2px -2px grey, 2px 2px #dfdfdf;
+}
+
+button:focus {
+    outline: none;
+}
+
+#helper {
+    position: absolute;
+    top: -90px;
+    left: 275px;
+    box-shadow: -115px 75px 33px 2px rgba(0, 0, 0, 0.75);
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#titleBar {
+    margin: 0;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title-bar-text {
+    background: linear-gradient(to right, #999696, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+}
+
+.window-body {
+    background: linear-gradient(to right, #817f7f, #dfdfdf);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content>p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #000000, #797777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-google {
+    color: #DB4437;
+    font-size: 1rem;
+    margin-right: 2px;
+}
+
+#google>a {
+    color: black;
+    font-size: 1rem;
+}
+
+#google>a:focus {
+    border: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-bar-controls>input {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    transition: 0.2s;
+    color: dimgray;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+}
+
+#modalClose:hover {
+    background-color: rgb(150, 23, 11);
+    color: white;
+}
+
+#close:hover {
+    background-color: rgb(150, 23, 11);
+    color: white;
+}
+
+.title-bar-controls>input:nth-child(1):hover {
+    background-color: rgb(107, 106, 106);
+    color: #ffffff;
+}
+
+.title-bar {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+.title-bar>p {
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+    font-size: .8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.display-wrapper {
+    width: 300px;
+    box-shadow: -1px -1px #0a0a0a, 1px 1px #fff, -2px -2px grey, 2px 2px #dfdfdf
+}
+
+input {
+    box-shadow: none !important;
+    width: 100%;
+}
+
+#operations {
+    text-align: right;
+    height: 25px;
+    font-size: 1rem;
+    background-color: #BCCE94;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 0 rgb(233, 230, 230)
+}
+
+#display {
+    border-top: none;
+    font-size: 1.8rem;
+    text-align: right;
+    height: 50px;
+    background-color: #BCCE94;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 0 rgb(233, 230, 230)
+}
+
+.body {
+    width: 300px;
+    height: 100%;
+}
+
+#buttons-wrapper {
+    display: flex;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.main {
+    flex: 3 1 75%;
+    text-align: center;
+}
+
+.operations {
+    flex: 3 1 25%;
+    text-align: center;
+}
+
+.romever {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.functional {
+    width: 33.3%;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+#removeAll {
+    background: rgb(241, 75, 75);
+    text-shadow: 2px 2px 0 rgb(209, 208, 208);
+    color: white;
+    font-size: 1.5rem;
+}
+
+#removeDisplayValue {
+    background: rgb(255, 255, 185);
+    text-shadow: 2px 2px 0 rgb(209, 208, 208);
+    color: white;
+    font-size: 1.5rem;
+}
+
+#backSpace {
+    background-color: rgb(108, 195, 250);
+    text-shadow: 2px 2px 0 rgb(209, 208, 208);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.keys>button {
+    width: 33.3%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0 rgb(117, 117, 117);
+    background: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+.operations>button {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 0 rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+#total {
+    width: 100%;
+    height: 100px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 0 rgb(204, 204, 204);
+    background: rgb(185, 120, 50);
+}

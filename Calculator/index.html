@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div id="helper" class="window" style="width: 300px">
+            <div id="titleBar" class="title-bar">
+                <div style="padding-left: 5px;" class="title-bar-text">Yardıma mı ihtiyacın var ?</div>
+                <div class="title-bar-controls">
+                    <button style="border-radius: 3px;" id="modalClose" aria-label="help"><strong>×</strong></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <div id="content">
+                    <p>Herşeyi devletten bekleme git araştır.</p>
+                </div>
+                <div id="google">
+                    <i class="fab fa-google"></i><i style="margin-right: 5px;font-size: 8px; color: #fbbc05;" class="fas fa-plus"></i>
+                    <a href="https://www.google.com/" target="_blank">Google Amca!</a>
+                </div>
+            </div>
+        </div>
+        <form id="calculator">
+            <div class="header">
+                <div class="title">
+                    <div class="title-bar">
+                        <p stylE="font-size: 1rem;" class="title-bar-text">Hesap Makinesi</p>
+                        <div class="title-bar-controls">
+                            <input type="button" id="help" value="?">
+                            <input type="button" id="close" value="×">
+                        </div>
+                    </div>
+                    <div class="display-wrapper">
+                        <input disabled id="operations" type="text">
+                        <input disabled id="display" type="text" name="display">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="body">
+                <div id="buttons-wrapper">
+                    <div class="main">
+                        <div class="romever">
+                            <button class="functional" id="removeAll" value="C">C</button>
+                            <button class="functional" id="removeDisplayValue" value="CE">CE</button>
+                            <button class="functional" id="backSpace" value="--">🡐</button>
+                            <button class="functional" value="√">√</button>
+                            <button class="functional" value="pi">𝜋</button>
+                            <button class="functional" value="ⁿ">⨯ⁿ</button>
+                            </button>
+                        </div>
+                        <div class="keys">
+                            <button value="7">7</button>
+                            <button value="8">8</button>
+                            <button value="9">9</button>
+                            <button value="4">4</button>
+                            <button value="5">5</button>
+                            <button value="6">6</button>
+                            <button value="1">1</button>
+                            <button value="2">2</button>
+                            <button value="3">3</button>
+                            <button value="negative">－</button>
+                            <button value="0">0</button>
+                            <button value=".">.</button>
+                        </div>
+                    </div>
+                    <div class="operations">
+                        <button value="÷" class="operators">÷</button>
+                        <button value="×" class="operators">×</button>
+                        <button value="-" class="operators">-</button>
+                        <button value="+" class="operators">+</button>
+                        <button value="=" id="total">=</button>
+                    </div>
+                </div>
+            </div>
+            <form>
+    </div>
+    <div class="container">
+        <a target="_blank" href="https://www.freecodecamp.org/news/programming-a-calculator-8263966a8019/">
+            <p>Reference Source</p>
+        </a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
