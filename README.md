@@ -49,7 +49,7 @@
 <hr>
 <br>
 
-- Visit > [OrderProfs Case](https://ugurkarakurt.github.io/Frontend-Challanges/OrderProfs-Case/).
+- Visit > [OrderProfs Case](https://ugurkarakurt.github.io/Frontend-Challanges/OrderProfs-Case/index.html).
 
 ![image info](OrderProfs-Case/assets/images/screenshot.png)
 
