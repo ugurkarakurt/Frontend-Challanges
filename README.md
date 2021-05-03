@@ -28,7 +28,7 @@
 <hr>
 <br>
 
-- Visit > [Currency Converter](https://ugurkarakurt.github.io/Frontend-Challanges/Currency-Converter/).
+- Visit > [Currency Converter](https://ugurkarakurt.github.io/Frontend-Challanges/Currency-Converter/index.html).
 
 ![image info](Currency-Converter/assets/images/screenshot.png)
 
