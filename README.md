@@ -1,6 +1,6 @@
 ## Frontend simple challanges
 
-- Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/Toggle_Theme//).
+- Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/Toggle_Theme/).
 
 ![image info](Toggle_Theme/assets/images/screenshot.png)
 
