@@ -14,7 +14,7 @@
 <hr>
 <br>
 
-- Visit > [Calculator](https://ugurkarakurt.github.io/Frontend-Challanges/Calculator/).
+- Visit > [Calculator](https://ugurkarakurt.github.io/Frontend-Challanges/Calculator/index.html).
 
 ![image info](Calculator/assets/images/screenshot.png)
 
