@@ -28,7 +28,7 @@ body {
     position: fixed;
     left: 0;
     width: 300px;
-    height: 100%;
+    height: 100vh;
     left: -300px;
     background-color: #111111;
     transition: all .3s ease;
@@ -220,4 +220,35 @@ section {
     height: 100vh;
     transition: all .3s ease;
     transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+    #check {
+        display: none;
+
+        &:checked~.sidebar {
+            width: 100%;
+        }
+
+        &:checked~label #btn {
+            left: 300px;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        &:checked~label #cancel {
+            left: 80%;
+        }
+
+        &:checked~section {
+            margin-left: 0;
+        }
+    }
+
+    .sidebar {
+
+        .icon {
+            display: none;
+        }
+    }
 }
