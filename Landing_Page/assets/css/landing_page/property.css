@@ -1,0 +1,240 @@
+* {
+    scrollbar-color: #555 #f1f1f1;
+    scrollbar-width: thin;
+    transition: all .3s ease-in-out;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    outline: 0 none;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #313131;
+}
+
+/* Animation */
+
+/* @-webkit-keyframes wave {
+    0% {
+        -webkit-left: 70px;
+    }
+    50% {
+        -webkit-left: 60px;
+    }
+    100% {
+        -webkit-left: 70px;
+    }
+} */
+
+@keyframes wave {
+    0% {
+        left: calc(100% - 100px);
+    }
+    100% {
+        left: calc(-400%);
+    }
+}
+
+@-webkit-keyframes ship {
+    0% {
+        -webkit-top: 0px;
+    }
+    50% {
+        -webkit-top: 60px;
+    }
+    100% {
+        -webkit-top: 70px;
+    }
+}
+
+@keyframes ship {
+    0% {
+        top: 55%;
+    }
+    50% {
+        top: 60%;
+    }
+    100% {
+        top: 55%;
+    }
+}
+
+@-webkit-keyframes rotateNeg {
+    0% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateNeg {
+    0% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+footer .social-media a {
+    position: relative;
+    text-decoration: none;
+    color: #404040;
+    transition: .5s;
+    --buttons-border: #1c1c1c #202020 #222;
+}
+
+footer .social-media a span {
+    position: absolute;
+    transition: transform .5s;
+}
+
+footer .social-media a span:nth-child(1), footer .social-media a span:nth-child(3) {
+    width: 100%;
+    height: 3px;
+    background: #404040;
+}
+
+footer .social-media a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+
+footer .social-media a:hover span:nth-child(1) {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+
+footer .social-media a span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+}
+
+footer .social-media a:hover span:nth-child(3) {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+
+footer .social-media a span:nth-child(2), footer .social-media a span:nth-child(4) {
+    width: 3px;
+    height: 100%;
+    background: #404040;
+}
+
+footer .social-media a span:nth-child(2) {
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transform-origin: bottom;
+}
+
+footer .social-media a:hover span:nth-child(2) {
+    transform: scale(1);
+    transform-origin: top;
+    transition: transform .5s;
+}
+
+footer .social-media a span:nth-child(4) {
+    top: 0;
+    right: 0;
+    transform: scale(0);
+    transform-origin: top;
+}
+
+footer .social-media a:hover span:nth-child(4) {
+    transform: scale(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+}
+
+footer .social-media .youtube:hover {
+    color: #FF0000;
+}
+
+footer .social-media .youtube:hover span {
+    background: #FF0000;
+}
+
+footer .social-media .twitter:hover {
+    color: #1da1f2;
+}
+
+footer .social-media .twitter:hover span {
+    background: #1da1f2;
+}
+
+footer .social-media .instagram:hover {
+    color: #c32aa3;
+}
+
+footer .social-media .instagram:hover span {
+    background: #c32aa3;
+}
+
+footer .social-media .linkedin:hover {
+    color: #0073B0;
+}
+
+footer .social-media .linkedin:hover span {
+    background: #0073B0;
+}
+
+a .twitter {
+    color: #1da1f2;
+}
+
+/* Buttons */
+
+.buttons {
+    outline: none !important;
+    width: 13rem;
+    height: 3.5rem;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0 !important;
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .7);
+    background: #127fa4;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.buttons:active, .buttons.active {
+    border-color: #ffff;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.rounded {
+    border-radius: 100em;
+}

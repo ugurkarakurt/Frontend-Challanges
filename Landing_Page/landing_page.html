@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" type="image/png" href="{% static 'images/logo.png' %}"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/landing_page/landing_page.css">
+    <link rel="stylesheet" href="assets/css/landing_page/media_query.css">
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <!-- Modal HTML -->
+    <div id="loginModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="header">
+                    <h5 class="modal-title">
+                        Sign in to Site
+                    </h5>
+                </div>
+                <div class="body">
+                    <form action="">
+                        <label for="username" class="form-label">Username or email address</label>
+                        <div class="input-group mb-3">
+                            <input type="text" name="username" autofocus="" autocapitalize="none"
+                                autocomplete="username" maxlength="150" required="" id="username" class="form-control"
+                                aria-describedby="basic-addon3">
+                        </div>
+
+                        <div class="span-wrapper">
+                            <label for="password" class="form-label">Password</label>
+                            <label> <a tabindex="0" href="#">Forgot password?</a>
+                            </label>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="password" name="password" autocomplete="current-password" required=""
+                                id="password" class="form-control" aria-describedby="basic-addon3">
+                        </div>
+                        <div class="checkBoxes animate__animated animate__fadeInUp">
+                            <input type="checkbox" value="lsRememberMe" id="rememberMe" name="remember_me">
+                            <i id="checkbox" class="far fa-times"></i>
+                            <label for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn submit w-100">Submit</button>
+                    </form>
+                </div>
+                <div class="footer">
+
+                    <p class="_58mv">By clicking the sign up button, you agree to,<a href="kvkk.html" id="privacy-link"
+                            target="_blank" rel="nofollow"> our data Policy. </a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End HTML -->
+
+    <!--  Float button-->
+    <a href="#header" id="toTop" class="animate__animated animate__fadeInUp"><i class="fas fa-chevron-up"></i></a>
+    <!--  Float button End-->
+
+    <!--  Header Section-->
+    <header id="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#header">
+                        <object id="ship" data="assets/images/ship.svg" type="image/svg+xml"></object>
+                        <object id="wave" data="assets/images/wave2.svg" type="image/svg+xml"></object>
+                    </a>
+                    <a class="clicker" href="#header">
+                    </a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <img src="assets/images/rutter.png" alt="">
+                    </label>
+                    <ul class="navlinks">
+                        <li><a id="login" href="#main">Content</a></li>
+                        <li><a id="loginButton" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  Header Section End -->
+
+    <!--  Background Image Section-->
+    <section class="home">
+    </section>
+    <!--  Background Image Section End-->
+
+    <!--  Main Section -->
+    <main id="main">
+        <h1>Content</h1>
+    </main>
+    <!--  Main Section End-->
+    <!-- Footer -->
+    <footer class="page-footer">
+        <h1>Footer</h1>
+    </footer>
+    <!-- Footer End-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/landing_page/landing_page.js"></script>
+</body>
+
+</html>

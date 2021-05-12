@@ -1,0 +1,114 @@
+/* Media qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        .nav {
+            .container {
+                max-width: 950px;
+                margin: 0;
+            }
+        }
+    }
+    main {
+        .container {
+            padding-top: 0;
+            grid-gap: 3rem;
+            padding-bottom: 3rem;
+
+            .content {
+                padding: 0 !important;
+                height: 300px;
+                align-items: flex-start;
+                justify-content: center;
+            }
+            .card-wrapper {
+                height: 250px;
+                .card {
+                    height: 100%;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        h1 {
+            font-size: 5rem;
+        }
+    }
+    header {
+        .nav {
+            .container {
+                max-width: 100%;
+                padding: 0 3rem;
+                margin: 0;
+                .logo {
+                    padding-left: 0px !important;
+                }
+                .main_list {
+                    width: 100%;
+                    height: 0;
+                    overflow: hidden;
+
+                    .checkbtn {
+                        display: flex;
+                        font-weight: 100;
+                    }
+                    ul {
+                        margin-right: 0px;
+                        position: fixed;
+                        width: 100%;
+                        height: 30vh;
+                        background: #127fa4c2;
+                        top: 80px;
+                        right: -100%;
+                        flex-direction: column;
+                        align-items: center;
+                        transition: all 0.1s ease;
+                        li {
+                            height: 100%;
+                            width: 100%;
+                            text-align: right;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0;
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100%;
+                                text-align: center;
+                                width: 100%;
+                                &:hover {
+                                    background-color: #80dfffa9;
+                                }
+                            }
+                        }
+                    }
+
+                    #check:checked ~ ul {
+                        right: 0;
+                    }
+                    #check:checked ~ .checkbtn {
+                        img {
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+                .media_button {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #topTop {
+        right: 1rem;
+        bottom: 1rem;
+    }
+}
