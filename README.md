@@ -1,6 +1,6 @@
 ## Frontend simple challanges
 
-- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/Landing_Page/).
+- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/Landing_Page/landing_page.html).
 
 ![image info](Landing_Page/assets/images/screenshot.png)
 
