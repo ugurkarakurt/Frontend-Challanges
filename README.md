@@ -1,5 +1,13 @@
 ## Frontend simple challanges
 
+- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/Landing_Page/).
+
+![image info](Landing_Page/assets/images/screenshot.png)
+
+<hr>
+<br>
+
+
 - Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/Toggle_Theme/).
 
 ![image info](Toggle_Theme/assets/images/screenshot.png)
