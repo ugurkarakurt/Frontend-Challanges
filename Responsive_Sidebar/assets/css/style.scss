@@ -1,0 +1,120 @@
+
+* {
+    transition: all .2s ease;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 16px;
+    // font-family: 'open sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #131318;
+}
+
+body {
+    min-height: 100vh;
+    color: #000;
+    background-color: #fff;
+
+
+    &::-webkit-scrollbar {
+        width: .25rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #6649b8;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #333;
+    }
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    position: fixed;
+    background: var(--bg-primary);
+
+    .navbar-nav {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: var(--text-secondary);
+            background: var(--bg-secondary);
+            letter-spacing: 0.3ch;
+            width: 100%;
+
+            i {
+                transform: rotate(0deg);
+            }
+
+            &:hover {
+                i {
+                    transform: rotate(-180deg);
+
+                }
+            }
+        }
+
+        .nav-item {
+            width: 100%;
+
+            &:last-child {
+                margin-top: auto;
+            }
+
+            .nav-link {
+                display: flex;
+                align-items: center;
+                height: 5rem;
+                color: var(--text-primary);
+                filter: grayscale(100%) opacity(.7);
+
+                &:hover {
+                    filter: grayscale(0%) opacity(1);
+                }
+
+                i {
+                    margin: 0 1.5rem;
+                    font-size: 2rem;
+                }
+
+                .link-text {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        width: 16rem;
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    .link-text {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+

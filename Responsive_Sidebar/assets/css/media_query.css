@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh; }
+    .navbar .link-text {
+      display: inline; } }
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 2rem 0; }
+
+  .navbar {
+    bottom: 0;
+    width: 100vh;
+    height: 5rem; }
+    .navbar .logo {
+      display: none; }
+    .navbar .navbar-nav {
+      flex-direction: row; }
+      .navbar .navbar-nav .nav-link {
+        justify-content: center; } }
+
+/*# sourceMappingURL=media_query.css.map */

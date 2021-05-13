@@ -1,0 +1,35 @@
+@media only screen and (min-width:600px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+
+        .link-text {
+            display: inline;
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    main {
+        margin: 2rem 0;
+    }
+
+    .navbar {
+        bottom: 0;
+        width: 100vh;
+        height: 5rem;
+
+        .logo {
+            display: none;
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+
+            .nav-link {
+                justify-content: center;
+            }
+        }
+    }
+}
