@@ -9,7 +9,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  scrollbar-width: none;
+  scrollbar-width: none !important;
   /* width */ }
   * ::-webkit-scrollbar {
     width: 0px !important; }
