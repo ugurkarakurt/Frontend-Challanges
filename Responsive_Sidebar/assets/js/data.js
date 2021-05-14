@@ -1,0 +1,98 @@
+export const pokemonList = [
+  {
+    name: "Abra",
+    primary: "#cdbd20",
+    secondary: "#5a3908",
+    tertiary: "#835a10",
+  },
+  {
+    name: "Bellsprout",
+    primary: "#62a441",
+    secondary: "#ac7b41",
+    tertiary: "#f6e673",
+  },
+  {
+    name: "Bulbasaur",
+    primary: "#399494",
+    secondary: "#184a4a",
+    tertiary: "#73ac31",
+  },
+  {
+    name: "Caterpie",
+    primary: "#6ad531",
+    secondary: "#ff4141",
+    tertiary: "#f6ee8b",
+  },
+  {
+    name: "Charmander",
+    primary: "#de5239",
+    secondary: "#8b2900",
+    tertiary: "#ffd508",
+  },
+  {
+    name: "Dratini",
+    primary: "#ffffff",
+    secondary: "#293183",
+    tertiary: "#7383d5",
+  },
+  {
+    name: "Eevee",
+    primary: "#d59c4a",
+    secondary: "#523120",
+    tertiary: "#e6c594",
+  },
+  {
+    name: "Jigglypuff",
+    primary: "#e67383",
+    secondary: "#104a8b",
+    tertiary: "#a41020",
+  },
+  {
+    name: "Meowth",
+    primary: "#FFE683",
+    secondary: "#000",
+    tertiary: "#ffffb4",
+  },
+  {
+    name: "Pidgey",
+    primary: "#A4625A",
+    secondary: "#734a31",
+    tertiary: "#ffee9c",
+  },
+  {
+    name: "Pikachu",
+    primary: "#F6E652",
+    secondary: "#292929",
+    tertiary: "#c52018",
+  },
+  {
+    name: "Psyduck",
+    primary: "#FFD54A",
+    secondary: "#945a10",
+    tertiary: "#e6a452",
+  },
+  {
+    name: "Snorlax",
+    primary: "#315a7b",
+    secondary: "#103941",
+    tertiary: "#528bac",
+  },
+  {
+    name: "Squirtle",
+    primary: "#8bc5cd",
+    secondary: "#297383",
+    tertiary: "#ffd56a",
+  },
+  {
+    name: "Venonat",
+    primary: "#8B6AA4",
+    secondary: "#624a7b",
+    tertiary: "#b4415a",
+  },
+  {
+    name: "Zubat",
+    primary: "#627bb4",
+    secondary: "#4a417b",
+    tertiary: "#b4529c",
+  },
+];
