@@ -3,7 +3,6 @@ import { pokemonList } from "./data.js";
 const ui = new UI();
 
 //Variables
-let root = document.documentElement;
 
 const aside = document.getElementById("aside");
 ui.addNavItem(aside, pokemonList);
@@ -18,6 +17,8 @@ const navLinks = document.querySelectorAll(".nav-link");
 })();
 
 function activeLink() {
+  let root = document.documentElement;
+
   const colors = this.querySelectorAll("span");
   const bg = document.getElementById("bg");
 
