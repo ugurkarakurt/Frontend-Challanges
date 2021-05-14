@@ -1,6 +1,9 @@
 * {
     font-family: "Pixelated MS Sans Serif", Arial;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
     margin: 0;
     padding: 0;
@@ -10,7 +13,7 @@
 
     /* width */
     ::-webkit-scrollbar {
-        width: 0px;
+        width: 0px !important;
     }
 }
 
@@ -33,8 +36,14 @@ header {
     top: 0;
     a {
         outline: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         width: 100%;
         height: 100%;
@@ -60,15 +69,28 @@ header {
         overflow-x: hidden;
         height: 100%;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
 
         .logo {
             position: absolute;
             top: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             background: var(--bg-secondary);
             letter-spacing: 0.3ch;
@@ -77,6 +99,8 @@ header {
 
             object {
                 height: 2rem;
+                -webkit-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
                 transform: rotate(90deg);
             }
         }
@@ -86,15 +110,21 @@ header {
             width: 100%;
             .nav-link {
                 outline: none;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
                 align-items: center;
                 height: 5rem;
                 color: #fff;
+                -webkit-filter: grayscale(100%) opacity(0.7);
                 filter: grayscale(100%) opacity(0.7);
 
                 &:hover {
                     background-color: var(--bg-secondary);
                     padding-left: 1rem;
+                    -webkit-filter: grayscale(0%) opacity(1);
                     filter: grayscale(0%) opacity(1);
                 }
                 img {
@@ -108,6 +138,7 @@ header {
             }
             .active {
                 background-color: var(--bg-primary);
+                -webkit-filter: grayscale(0%) opacity(1);
                 filter: grayscale(0%) opacity(1);
             }
         }
@@ -119,8 +150,14 @@ main {
     overflow: hidden;
     width: 100%;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     img {
         height: 65%;
