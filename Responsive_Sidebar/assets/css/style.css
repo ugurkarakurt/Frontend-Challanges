@@ -34,7 +34,7 @@ header {
     width: 100%;
     height: 100%; }
     header a img {
-      height: 100%;
+      height: 80px;
       padding: 1rem 2rem; }
     header a:active, header a:focus {
       outline: none; }
