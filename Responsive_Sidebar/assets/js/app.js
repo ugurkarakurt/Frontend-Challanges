@@ -13,7 +13,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 // Event Listeners
 (function addEventListeners() {
   navLinks.forEach((link) => {
-    link.addEventListener("click", activeLink);
+    link.onclick = activeLink;
   });
 })();
 
@@ -27,10 +27,7 @@ function activeLink() {
     link.classList.remove("active");
   });
   this.classList.add("active");
-
-  root.addEventListener("mousemove", (e) => {
-    root.style.setProperty("--bg-primary", `${colors[1].innerHTML}`);
-    root.style.setProperty("--bg-secondary", `${colors[2].innerHTML}`);
-    root.style.setProperty("--bg-tertiary", `${colors[3].innerHTML}`);
-  });
+  root.style.setProperty("--bg-primary", `${colors[1].innerHTML}`);
+  root.style.setProperty("--bg-secondary", `${colors[2].innerHTML}`);
+  root.style.setProperty("--bg-tertiary", `${colors[3].innerHTML}`);
 }
