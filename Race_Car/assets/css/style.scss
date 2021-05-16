@@ -185,21 +185,24 @@
         height: 300px;
         background: transparent;
         &::before {
+            background-size: 1500px 300px;
             bottom: 0;
             content: "";
             background-image: url(../images/tree.svg);
             position: absolute;
             width: 100%;
-            height: 90%;
-            animation: animateRoad 500s linear infinite;
+            height: 300px;
+            animation: animateRoad 600s linear infinite;
         }
         &::after {
+            left: -100px;
+            background-size: 1000px 320px;
             content: "";
             background-image: url(../images/tree1.svg);
             position: absolute;
             width: 120%;
-            height: 100%;
-            animation: animateRoad 300s linear infinite;
+            height: 320px;
+            animation: animateRoad 500s linear infinite;
         }
     }
     .bush {
@@ -210,14 +213,14 @@
         height: 100px;
         background: transparent;
         &::before {
-            background-size: 500px 100px;
+            background-size: 1000px 100px;
             bottom: 0px;
             content: "";
             background-image: url(../images/bush.svg);
             position: absolute;
             width: 100%;
             height: 100%;
-            animation: animateRoad 300s linear infinite;
+            animation: animateRoad 400s linear infinite;
         }
         &::after {
             left: -50px;
@@ -229,7 +232,7 @@
             position: absolute;
             width: 120%;
             height: 100%;
-            animation: animateRoad 300s linear infinite;
+            animation: animateRoad 500s linear infinite;
         }
     }
     .road {

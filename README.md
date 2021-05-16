@@ -1,5 +1,12 @@
 ## Frontend simple challanges
 
+- Visit > [Race Car](https://ugurkarakurt.github.io/Frontend-Challanges/Race_Car/index.html).
+
+![image info](Race_Car/assets/images/video.gif)
+
+<hr>
+<br>
+
 - Visit > [Responsive Sidebar](https://ugurkarakurt.github.io/Frontend-Challanges/Responsive_Sidebar/index.html).
 
 ![image info](Responsive_Sidebar/assets/images/screenshot.png)
