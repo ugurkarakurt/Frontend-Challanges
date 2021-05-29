@@ -1,0 +1,34 @@
+@import "normalize";
+@import "stars";
+
+
+.container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(20, 30, 48);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+    .spacecraft {
+        z-index: 102;
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        background-image: url(../images/spaceship.svg);
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(2000px);
+    }
+}

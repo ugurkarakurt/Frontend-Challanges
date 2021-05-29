@@ -1,0 +1,174 @@
+@import "box-shadows";
+
+$shadows: multiple-box-shadow(700, #fff);
+$shadows2: multiple-box-shadow(700, #ffc78e);
+$shadows3: multiple-box-shadow(700, #afc9ff);
+$shadows4: multiple-box-shadow(700, #ffd9b2);
+$shadows5: multiple-box-shadow(700, #c7d8ff);
+$shadows6: multiple-box-shadow(700, #ffe5cf);
+$shadows7: multiple-box-shadow(500, #fff4f3);
+$shadows8: multiple-box-shadow(500, #c7d8ff);
+$shadows9: multiple-box-shadow(500, #fff);
+
+.stars {
+    position: relative;
+    z-index: 99;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows;
+    animation: animStar 1100s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows;
+    }
+}
+.stars-yellow {
+    position: relative;
+    z-index: 99;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows2;
+    animation: animStar 1080s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows2;
+    }
+}
+.stars-blue {
+    position: relative;
+    z-index: 99;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows3;
+    animation: animStar 1050s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows3;
+    }
+}
+.stars2 {
+    position: relative;
+    z-index: 100;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $shadows4;
+    animation: animStar 1030s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows4;
+    }
+}
+.stars2-yellow {
+    position: relative;
+    z-index: 100;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows5;
+    animation: animStar 950s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows5;
+    }
+}
+.stars2-blue {
+    position: relative;
+    z-index: 100;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows6;
+    animation: animStar 1000s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows6;
+    }
+}
+.stars3 {
+    position: relative;
+    z-index: 101;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $shadows7;
+    animation: animStar 600s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows7;
+    }
+}
+.stars3-yellow {
+    position: relative;
+    z-index: 101;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $shadows8;
+    animation: animStar 580s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows8;
+    }
+}
+.stars3-blue {
+    position: relative;
+    z-index: 101;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $shadows9;
+    animation: animStar 500s linear infinite;
+    &:after {
+        content: " ";
+        position: absolute;
+        top: -2000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows9;
+    }
+}
