@@ -1,4 +1,4 @@
-@import "box-shadows";
+@import "animations";
 
 $shadows: multiple-box-shadow(700, #fff);
 $shadows2: multiple-box-shadow(700, #ffc78e);
@@ -16,8 +16,10 @@ $shadows9: multiple-box-shadow(500, #fff);
     width: 1px;
     height: 1px;
     background: transparent;
+    -webkit-box-shadow: $shadows;
     box-shadow: $shadows;
-    animation: animStar 1100s linear infinite;
+    -webkit-animation: animStar 100s linear infinite;
+    animation: animStar 100s linear infinite;
     &:after {
         content: " ";
         position: absolute;
@@ -25,6 +27,7 @@ $shadows9: multiple-box-shadow(500, #fff);
         width: 1px;
         height: 1px;
         background: transparent;
+        -webkit-box-shadow: $shadows;
         box-shadow: $shadows;
     }
 }
@@ -34,8 +37,10 @@ $shadows9: multiple-box-shadow(500, #fff);
     width: 1px;
     height: 1px;
     background: transparent;
-    box-shadow: $shadows2;
-    animation: animStar 1080s linear infinite;
+    -webkit-box-shadow: $shadows6;
+    box-shadow: $shadows6;
+    -webkit-animation: animStar 180s linear infinite;
+    animation: animStar 180s linear infinite;
     &:after {
         content: " ";
         position: absolute;
@@ -43,7 +48,8 @@ $shadows9: multiple-box-shadow(500, #fff);
         width: 1px;
         height: 1px;
         background: transparent;
-        box-shadow: $shadows2;
+        -webkit-box-shadow: $shadows6;
+        box-shadow: $shadows6;
     }
 }
 .stars-blue {
@@ -52,62 +58,10 @@ $shadows9: multiple-box-shadow(500, #fff);
     width: 1px;
     height: 1px;
     background: transparent;
-    box-shadow: $shadows3;
-    animation: animStar 1050s linear infinite;
-    &:after {
-        content: " ";
-        position: absolute;
-        top: -2000px;
-        width: 1px;
-        height: 1px;
-        background: transparent;
-        box-shadow: $shadows3;
-    }
-}
-.stars2 {
-    position: relative;
-    z-index: 100;
-    width: 2px;
-    height: 2px;
-    background: transparent;
-    box-shadow: $shadows4;
-    animation: animStar 1030s linear infinite;
-    &:after {
-        content: " ";
-        position: absolute;
-        top: -2000px;
-        width: 1px;
-        height: 1px;
-        background: transparent;
-        box-shadow: $shadows4;
-    }
-}
-.stars2-yellow {
-    position: relative;
-    z-index: 100;
-    width: 1px;
-    height: 1px;
-    background: transparent;
+    -webkit-box-shadow: $shadows5;
     box-shadow: $shadows5;
-    animation: animStar 950s linear infinite;
-    &:after {
-        content: " ";
-        position: absolute;
-        top: -2000px;
-        width: 2px;
-        height: 2px;
-        background: transparent;
-        box-shadow: $shadows5;
-    }
-}
-.stars2-blue {
-    position: relative;
-    z-index: 100;
-    width: 1px;
-    height: 1px;
-    background: transparent;
-    box-shadow: $shadows6;
-    animation: animStar 1000s linear infinite;
+    -webkit-animation: animStar 150s linear infinite;
+    animation: animStar 150s linear infinite;
     &:after {
         content: " ";
         position: absolute;
@@ -115,60 +69,7 @@ $shadows9: multiple-box-shadow(500, #fff);
         width: 1px;
         height: 1px;
         background: transparent;
-        box-shadow: $shadows6;
-    }
-}
-.stars3 {
-    position: relative;
-    z-index: 101;
-    width: 2px;
-    height: 2px;
-    background: transparent;
-    box-shadow: $shadows7;
-    animation: animStar 600s linear infinite;
-    &:after {
-        content: " ";
-        position: absolute;
-        top: -2000px;
-        width: 2px;
-        height: 2px;
-        background: transparent;
-        box-shadow: $shadows7;
-    }
-}
-.stars3-yellow {
-    position: relative;
-    z-index: 101;
-    width: 2px;
-    height: 2px;
-    background: transparent;
-    box-shadow: $shadows8;
-    animation: animStar 580s linear infinite;
-    &:after {
-        content: " ";
-        position: absolute;
-        top: -2000px;
-        width: 2px;
-        height: 2px;
-        background: transparent;
-        box-shadow: $shadows8;
-    }
-}
-.stars3-blue {
-    position: relative;
-    z-index: 101;
-    width: 2px;
-    height: 2px;
-    background: transparent;
-    box-shadow: $shadows9;
-    animation: animStar 500s linear infinite;
-    &:after {
-        content: " ";
-        position: absolute;
-        top: -2000px;
-        width: 2px;
-        height: 2px;
-        background: transparent;
-        box-shadow: $shadows9;
+        -webkit-box-shadow: $shadows5;
+        box-shadow: $shadows5;
     }
 }
