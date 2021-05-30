@@ -1,0 +1,252 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import "normalize";
+@import "animations";
+
+$shadows: multiple-box-shadow(2000, #fff);
+
+section {
+    background: -o-radial-gradient(top, ellipse, transparent 0%, #006beb 100%);
+    background: radial-gradient(ellipse at top, transparent 0%, #006beb 100%);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .cloud {
+        top: 0px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        &::before {
+            top: 30px;
+            left: -50px;
+            content: "";
+            background-size: 1000px 40px;
+            -webkit-animation: animate2 15s linear infinite;
+            animation: animate2 15s linear infinite;
+            background-image: url(../images/cloud.svg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 120%;
+            height: 100px;
+            -webkit-animation: clouds 15000s linear infinite;
+            animation: clouds 15000s linear infinite;
+        }
+    }
+    .cloud2 {
+        top: 50px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        &::before {
+            left: 0px;
+            top: 0px;
+            content: "";
+            background-size: 800px 50px;
+            background-image: url(../images/cloud2.svg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 120%;
+            height: 100px;
+            -webkit-animation: clouds 25000s linear infinite;
+            animation: clouds 25000s linear infinite;
+        }
+        &::after {
+            top: 10px;
+            left: -100px;
+            content: "";
+            background-size: 1500px 200px;
+            background-image: url(../images/clouds.svg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 120%;
+            height: 300px;
+            -webkit-animation: clouds 30000s linear infinite;
+            animation: clouds 30000s linear infinite;
+        }
+    }
+    .cloud3 {
+        top: 0px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        &::before {
+            left: -200px;
+            top: 100px;
+            content: "";
+            background-size: 800px 100px;
+            background-image: url(../images/cloud3.svg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 120%;
+            height: 100px;
+            -webkit-animation: clouds 25000s linear infinite;
+            animation: clouds 25000s linear infinite;
+        }
+        &::after {
+            top: 150px;
+            left: -100px;
+            content: "";
+            background-size: 1000px 200px;
+            background-image: url(../images/cloud.svg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 100%;
+            height: 300px;
+            -webkit-animation: clouds 30000s linear infinite;
+            animation: clouds 30000s linear infinite;
+        }
+    }
+    .island {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        &::before {
+            opacity: 0.8;
+            left: -2000px;
+            bottom: 80px;
+            content: "";
+            background-size: 2300px 200px;
+            background-image: url(../images/island.svg);
+            background-repeat: repeat-x;
+            position: absolute;
+            width: 220%;
+            height: 200px;
+            -webkit-animation: clouds 10000s linear infinite;
+            animation: clouds 10000s linear infinite;
+        }
+    }
+    .sun {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-size: 100px;
+        background-image: url(../images/sun.svg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: -5%;
+    }
+    .ship {
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        background: url(../images/ship.svg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        -webkit-animation: ship 3s linear infinite;
+        animation: ship 3s linear infinite;
+    }
+    .sea {
+        z-index: 1001;
+        opacity: 1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-image: url(../images/sea.png);
+        background-size: 1000px 100px;
+        -webkit-animation: animate2 15s linear infinite;
+        animation: animate2 15s linear infinite;
+        -webkit-filter: blur(2px);
+        filter: blur(2px);
+        &::before {
+            z-index: 1002;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 57, 115, 1);
+        }
+    }
+    .sea2 {
+        z-index: 1001;
+        opacity: 1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            from(rgba(0, 57, 115, 1)),
+            color-stop(25%, rgba(0, 57, 115, 1)),
+            color-stop(50%, rgba(0, 58, 115, 0.5)),
+            color-stop(75%, rgba(20, 69, 132, 0.3)),
+            to(rgba(42, 82, 152, 0))
+        );
+        background-image: -o-linear-gradient(
+            bottom,
+            rgba(0, 57, 115, 1) 0%,
+            rgba(0, 57, 115, 1) 25%,
+            rgba(0, 58, 115, 0.5) 50%,
+            rgba(20, 69, 132, 0.3) 75%,
+            rgba(42, 82, 152, 0) 100%
+        );
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 57, 115, 1) 0%,
+            rgba(0, 57, 115, 1) 25%,
+            rgba(0, 58, 115, 0.5) 50%,
+            rgba(20, 69, 132, 0.3) 75%,
+            rgba(42, 82, 152, 0) 100%
+        );
+    }
+
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-image: url(../images/wave2.png);
+        background-size: 1000px 100px;
+    }
+    .wave1 {
+        -webkit-animation: animate 30s linear infinite;
+        animation: animate 30s linear infinite;
+        z-index: 1001;
+        opacity: 0.4;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    .wave2 {
+        -webkit-animation: animate2 15s linear infinite;
+        animation: animate2 15s linear infinite;
+        z-index: 999;
+        opacity: 0.2;
+        -webkit-animation-delay: -5s;
+        animation-delay: -5s;
+    }
+    .wave3 {
+        -webkit-animation: animate 15s linear infinite;
+        animation: animate 15s linear infinite;
+        z-index: 998;
+        opacity: 0.2;
+        -webkit-animation-delay: -2s;
+        animation-delay: -2s;
+    }
+
+    .wave4 {
+        -webkit-animation: animate2 5s linear infinite;
+        animation: animate2 5s linear infinite;
+        z-index: 997;
+        opacity: 0.5;
+        -webkit-animation-delay: -2s;
+        animation-delay: -2s;
+    }
+}
