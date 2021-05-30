@@ -1,9 +1,7 @@
 ## Frontend simple challanges
 
 - Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html).
-- <img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="200" height="400" />
-
-![image info](Space_Way/assets/images/video.gif =250x250)
+- <img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="100%"/>
 
 <hr>
 <br>
