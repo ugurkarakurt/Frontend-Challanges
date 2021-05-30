@@ -6,11 +6,8 @@
 <hr>
 <br>
 
-
 - Visit > [Race Car](https://ugurkarakurt.github.io/Frontend-Challanges/Race_Car/index.html).
-
-![image info](Race_Car/assets/images/video.gif)
-
+- <img src="Race_Car/assets/images/video.gif" data-canonical-src="Race_Car/assets/images/video.gif" width="100%"/>
 <hr>
 <br>
 
