@@ -1,6 +1,6 @@
 ## Frontend simple challanges
 
-- Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html).
+- Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html | width=100).
 
 ![image info](Space_Way/assets/images/video.gif)
 
