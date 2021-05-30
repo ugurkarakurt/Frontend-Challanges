@@ -1,7 +1,12 @@
 ## Frontend simple challanges
+- Visit > [Seaway](https://ugurkarakurt.github.io/Frontend-Challanges/Seaway/index.html).
+  <img src="Seaway/assets/images/video.gif" data-canonical-src="Seaway/assets/images/video.gif" width="100%"/>
+
+<hr>
+<br>
 
 - Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html).
-<img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="100%"/>
+  <img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="100%"/>
 
 <hr>
 <br>
@@ -24,7 +29,6 @@
 
 <hr>
 <br>
-
 
 - Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/Toggle_Theme/).
 
