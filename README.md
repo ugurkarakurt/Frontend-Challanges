@@ -2,7 +2,7 @@
 
 - Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html).
 
-![image info](Space_Way/assets/images/video.gif | width=100)
+![image info](Space_Way/assets/images/video.gif =250x250)
 
 <hr>
 <br>
