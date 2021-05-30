@@ -1,13 +1,13 @@
 ## Frontend simple challanges
 
 - Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html).
-- <img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="100%"/>
+<img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="100%"/>
 
 <hr>
 <br>
 
 - Visit > [Race Car](https://ugurkarakurt.github.io/Frontend-Challanges/Race_Car/index.html).
-- <img src="Race_Car/assets/images/video.gif" data-canonical-src="Race_Car/assets/images/video.gif" width="100%"/>
+<img src="Race_Car/assets/images/video.gif" data-canonical-src="Race_Car/assets/images/video.gif" width="100%"/>
 <hr>
 <br>
 
