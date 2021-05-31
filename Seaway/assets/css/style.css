@@ -398,7 +398,7 @@ section {
       background-image: url(../images/clouds.svg);
       background-repeat: repeat-x;
       position: absolute;
-      width: 120%;
+      width: 140%;
       height: 300px;
       -webkit-animation: clouds 30000s linear infinite;
       animation: clouds 30000s linear infinite; }
@@ -416,7 +416,7 @@ section {
       background-image: url(../images/cloud3.svg);
       background-repeat: repeat-x;
       position: absolute;
-      width: 120%;
+      width: 140%;
       height: 100px;
       -webkit-animation: clouds 25000s linear infinite;
       animation: clouds 25000s linear infinite; }
@@ -428,7 +428,7 @@ section {
       background-image: url(../images/cloud.svg);
       background-repeat: repeat-x;
       position: absolute;
-      width: 100%;
+      width: 140%;
       height: 300px;
       -webkit-animation: clouds 30000s linear infinite;
       animation: clouds 30000s linear infinite; }
@@ -469,7 +469,7 @@ section {
     height: 500px;
     background: url(../images/ship.svg);
     background-repeat: no-repeat;
-    background-position-x: 50%;
+    background-position-x: 53%;
     -webkit-animation: ship 3s linear infinite;
     animation: ship 3s linear infinite; }
   section .sea {

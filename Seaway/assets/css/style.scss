@@ -71,7 +71,7 @@ section {
             background-image: url(../images/clouds.svg);
             background-repeat: repeat-x;
             position: absolute;
-            width: 120%;
+            width: 140%;
             height: 300px;
             -webkit-animation: clouds 30000s linear infinite;
             animation: clouds 30000s linear infinite;
@@ -93,7 +93,7 @@ section {
             background-image: url(../images/cloud3.svg);
             background-repeat: repeat-x;
             position: absolute;
-            width: 120%;
+            width: 140%;
             height: 100px;
             -webkit-animation: clouds 25000s linear infinite;
             animation: clouds 25000s linear infinite;
@@ -107,7 +107,7 @@ section {
             background-image: url(../images/cloud.svg);
             background-repeat: repeat-x;
             position: absolute;
-            width: 100%;
+            width: 140%;
             height: 300px;
             -webkit-animation: clouds 30000s linear infinite;
             animation: clouds 30000s linear infinite;
@@ -157,7 +157,7 @@ section {
         height: 500px;
         background: url(../images/ship.svg);
         background-repeat: no-repeat;
-        background-position-x: 50%;
+        background-position-x: 53%;
         -webkit-animation: ship 3s linear infinite;
         animation: ship 3s linear infinite;
     }
@@ -194,26 +194,32 @@ section {
         left: 0;
         width: 100%;
         height: 100px;
-        background-image: -webkit-gradient(linear,
-                left bottom,
-                left top,
-                from(rgba(0, 57, 115, 1)),
-                color-stop(25%, rgba(0, 57, 115, 1)),
-                color-stop(50%, rgba(0, 58, 115, 0.5)),
-                color-stop(75%, rgba(20, 69, 132, 0.3)),
-                to(rgba(42, 82, 152, 0)));
-        background-image: -o-linear-gradient(bottom,
-                rgba(0, 57, 115, 1) 0%,
-                rgba(0, 57, 115, 1) 25%,
-                rgba(0, 58, 115, 0.5) 50%,
-                rgba(20, 69, 132, 0.3) 75%,
-                rgba(42, 82, 152, 0) 100%);
-        background-image: linear-gradient(0deg,
-                rgba(0, 57, 115, 1) 0%,
-                rgba(0, 57, 115, 1) 25%,
-                rgba(0, 58, 115, 0.5) 50%,
-                rgba(20, 69, 132, 0.3) 75%,
-                rgba(42, 82, 152, 0) 100%);
+        background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            from(rgba(0, 57, 115, 1)),
+            color-stop(25%, rgba(0, 57, 115, 1)),
+            color-stop(50%, rgba(0, 58, 115, 0.5)),
+            color-stop(75%, rgba(20, 69, 132, 0.3)),
+            to(rgba(42, 82, 152, 0))
+        );
+        background-image: -o-linear-gradient(
+            bottom,
+            rgba(0, 57, 115, 1) 0%,
+            rgba(0, 57, 115, 1) 25%,
+            rgba(0, 58, 115, 0.5) 50%,
+            rgba(20, 69, 132, 0.3) 75%,
+            rgba(42, 82, 152, 0) 100%
+        );
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 57, 115, 1) 0%,
+            rgba(0, 57, 115, 1) 25%,
+            rgba(0, 58, 115, 0.5) 50%,
+            rgba(20, 69, 132, 0.3) 75%,
+            rgba(42, 82, 152, 0) 100%
+        );
     }
 
     .wave {
@@ -263,7 +269,7 @@ section {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     section {
         .ship {
             background-size: 300px;
