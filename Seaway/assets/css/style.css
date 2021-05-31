@@ -540,4 +540,9 @@ section {
     -webkit-animation-delay: -2s;
     animation-delay: -2s; }
 
+@media only screen and (max-width: 768px) {
+  section .ship {
+    background-size: 300px;
+    background-position-y: 100%; } }
+
 /*# sourceMappingURL=style.css.map */
