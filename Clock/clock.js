@@ -1,6 +1,6 @@
 // Source https://echarts.apache.org/en/index.html
 
-let JobList = (function () {
+let clock = (function () {
   let dom = document.getElementById("container");
   let myChart = echarts.init(dom);
   let app = {};
@@ -240,14 +240,8 @@ let JobList = (function () {
   if (option && typeof option === "object") {
     myChart.setOption(option);
   }
-
-  return {
-    init: function () {
-      _componentUniform();
-    },
-  };
 })();
 
 document.addEventListener("DOMContentLoaded", function () {
-  JobList.init();
+  clock.init();
 });
