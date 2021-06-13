@@ -23,7 +23,7 @@
 <hr>
 <br>
 
-- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/Login-Register-Case/index.html)
+- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/Login-Register-Case/)
   <img src="Login-Register-Case/screenshot.png" data-canonical-src="Login-Register-Case/screenshot.png" width="100%"/>
 
 <hr>
