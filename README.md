@@ -1,11 +1,11 @@
 ## Frontend simple challanges
+
 - Visit > [Echarts Clock](https://ugurkarakurt.github.io/Frontend-Challanges/Clock/index.html) Refarance -> https://echarts.apache.org/en/index.html.
   <img src="Clock/screenshot.png" data-canonical-src="Clock/screenshot.png" width="100%"/>
 
 <hr>
 <br>
 
-## Frontend simple challanges
 - Visit > [Seaway](https://ugurkarakurt.github.io/Frontend-Challanges/Seaway/index.html).
   <img src="Seaway/assets/images/video.gif" data-canonical-src="Seaway/assets/images/video.gif" width="100%"/>
 
@@ -20,6 +20,18 @@
 
 - Visit > [Race Car](https://ugurkarakurt.github.io/Frontend-Challanges/Race_Car/index.html).
 <img src="Race_Car/assets/images/video.gif" data-canonical-src="Race_Car/assets/images/video.gif" width="100%"/>
+<hr>
+<br>
+
+- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/Login-Register-Case/index.html)
+  <img src="Login-Register-Case/screenshot.png" data-canonical-src="Login-Register-Case/screenshot.png" width="100%"/>
+
+<hr>
+<br>
+
+- Visit > [Personal Portfolio](https://ugurkarakurt.github.io/Frontend-Challanges/Personal_Portfolio/index.html)
+  <img src="Personal_Portfolio/screenshot.png" data-canonical-src="Personal_Portfolio/screenshot.png" width="100%"/>
+
 <hr>
 <br>
 

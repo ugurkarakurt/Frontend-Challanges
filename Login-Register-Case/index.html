@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/log-in.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login & Register </title>
+</head>
+
+<body>
+    <header>
+        <h3>
+            HiçbiriŞurada
+        </h3>
+    </header>
+    <main>
+        <div class="login-form">
+            <form class="form-validate" action="#">
+                <div class="form-header">
+                    <div class="login-button-wrapper">
+                        <button class="login-btn active">Giriş Yap</button>
+                    </div>
+                    <div class="register-button-wrapper">
+                        <button class="register-btn">Üye ol</button>
+                    </div>
+                </div>
+                <div class="form-body">
+                    <div class="input-wrapper">
+                        <input type="email" name="email" id="email" required placeholder="E-posta adresi">
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="password" name="password" id="password" required placeholder="Şifre">
+                        <span id="showPassword"><img id="eyeIcon" src="assets/images/eye.svg" width="25px"></span>
+                    </div>
+                    <div class="form-footer">
+                        <div class="submit-button-wrapper">
+                            <button class="submit-btn">Giriş yap</button>
+                        </div>
+                        <div class="forgot-password-wrapper">
+                            <a href="" class="forgot-password-btn">Şifremi unuttum</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/validate.min.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>

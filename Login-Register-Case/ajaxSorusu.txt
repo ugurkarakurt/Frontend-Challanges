@@ -1,0 +1,13 @@
+##  Ajax’ın nedir ve nasıl kullanılır? 
+
+    - Ajax Asenkron Javascript ve XML'in kısaltmasıdır.
+    Javascript client tarafında kullanılan ve tarayıcaların kullanıcılarla etkileşim
+    yapmasını sağlayan bir programlama dilidir. XML ise HTML gibi bir işaretleme dilidir. 
+    Adından da anlaşılacağı üzere; çeşitli formatlarda, asenkron veri gönderip almamızı sağlayan bir programlama tekniğidir.
+    Çalışma sistemi ise,herhangi bir etkileşim sonucunda, Javascript ile oluşturulan XMLHttpRequest objesi
+    Http reuest ile sunucuya istek şeklinde tarayıcıdan gönderilir. Gelen istek server tarafından karşılanır ve eğer doğru bir istekse
+    yeni bir response objesi tarayıcıya gönderilir. Gelen obje alınıp işlenip kullanıcıya gösterilir. Neticede, sayfa yenilenmeden
+    sadece istenilen kısım güncellenmiş olur. 
+    Günümüzde asenkron işlemler yapmak için farklı teknikler de vardır. Örneğin fetch gibi. Uzunca bir HttpRequest yazmamak adına, 
+    javascriptin promise yapısını kullanan fetch ile istekler yazılabilir. 
+    Sonuç olarak, Ajax, kullanıcı deneyimi açısından olmazsa olmaz bir tekniktir. 

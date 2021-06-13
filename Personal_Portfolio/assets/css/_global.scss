@@ -1,0 +1,49 @@
+* {
+    font-family: "Comfortaa", sans-serif;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scrollbar-width: thin;
+    scrollbar-color: #8e919d #43464e;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #43464e;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #8e919d;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #43464e;
+}
+body {
+    color: #eee;
+    background-color: #202125;
+}
+%center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+// @keyframes scaleEffect {
+//     100% {
+//         transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+//     }
+// }
