@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive !important;
+  font-weight: 700; }
+
+#information {
+  line-height: 2rem; }
+  #information h1 {
+    font-size: 1.5rem; }
+  #information .modal-body {
+    padding: 2rem 1; }
+
+main {
+  background: #e1e8eb;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main .periodic__table {
+    color: #fff; }
+    main .periodic__table .line {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .periodic__table .line .box {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        margin: 2px;
+        transition: all 0.1s ease-in-out; }
+        main .periodic__table .line .box .element {
+          transition: all 0.1s ease-in-out;
+          cursor: pointer;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          padding: 4px 2px;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0); }
+          main .periodic__table .line .box .element .information__list .name {
+            display: none;
+            font-size: 0.5rem;
+            padding: 2px; }
+          main .periodic__table .line .box .element .information__list .symbol {
+            font-size: 1.4rem;
+            padding: 4px 2px 0 2px; }
+          main .periodic__table .line .box .element .information__list .state {
+            font-size: 0.9rem;
+            padding: 2px; }
+          main .periodic__table .line .box .element .information__list .atomic_weight {
+            font-size: 0.7rem;
+            padding: 2px; }
+          main .periodic__table .line .box .element:hover {
+            transition: 0.1s ease-in-out;
+            transform: scale(1.3);
+            z-index: 999; }
+            main .periodic__table .line .box .element:hover .information__list .name {
+              display: block; }
+            main .periodic__table .line .box .element:hover .information__list .symbol {
+              font-size: 1.2rem; }
+            main .periodic__table .line .box .element:hover .information__list .state {
+              font-size: 0.8rem; }
+            main .periodic__table .line .box .element:hover .information__list .atomic_weight {
+              font-size: 0.6rem; }
+        main .periodic__table .line .box .nonmetal {
+          background-color: #128370; }
+          main .periodic__table .line .box .nonmetal:hover {
+            color: #128370;
+            background-color: #fff; }
+        main .periodic__table .line .box .noble__gas {
+          background-color: #e1c1cc; }
+          main .periodic__table .line .box .noble__gas:hover {
+            color: #e1c1cc;
+            background-color: #fff; }
+        main .periodic__table .line .box .alkali__metal {
+          background-color: #0c5b4e; }
+          main .periodic__table .line .box .alkali__metal:hover {
+            color: #0c5b4e;
+            background-color: #fff; }
+        main .periodic__table .line .box .alkaline__earth__metal {
+          background-color: #016c9a; }
+          main .periodic__table .line .box .alkaline__earth__metal:hover {
+            color: #016c9a;
+            background-color: #fff; }
+        main .periodic__table .line .box .metalloid {
+          background-color: #17bed0; }
+          main .periodic__table .line .box .metalloid:hover {
+            color: #17bed0;
+            background-color: #fff; }
+        main .periodic__table .line .box .halogen {
+          background-color: #fedbb5; }
+          main .periodic__table .line .box .halogen:hover {
+            color: #fedbb5;
+            background-color: #fff; }
+        main .periodic__table .line .box .post__transition__metal {
+          background-color: #f4c20d; }
+          main .periodic__table .line .box .post__transition__metal:hover {
+            color: #f4c20d;
+            background-color: #fff; }
+        main .periodic__table .line .box .transition__metal {
+          background-color: #6f2f91; }
+          main .periodic__table .line .box .transition__metal:hover {
+            color: #6f2f91;
+            background-color: #fff; }
+        main .periodic__table .line .box .lanthanide {
+          background-color: #af1f4f; }
+          main .periodic__table .line .box .lanthanide:hover {
+            color: #af1f4f;
+            background-color: #fff; }
+        main .periodic__table .line .box .actinide {
+          background-color: #64122d; }
+          main .periodic__table .line .box .actinide:hover {
+            color: #64122d;
+            background-color: #fff; }
+        main .periodic__table .line .box .atomic__number {
+          color: #393e46;
+          position: absolute;
+          right: 3px;
+          bottom: 3px;
+          font-size: 0.65rem; }
+
+/*# sourceMappingURL=style.css.map */

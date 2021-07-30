@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/atom.svg" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Periodic Table</title>
+</head>
+
+<body>
+    <div class="modal fade" id="information" tabindex="-1" aria-labelledby="informationLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="informationLabel">Hidrojen</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                            <tr>
+                                <th class="text-muted" id="atomicNumber">Atomic number :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="atomicMass">Atomic mass :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="electronegravity">Electronegativity according to Pauling :
+                                </th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="desity">Density :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="meltingPoint">Melting point :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="boilingPoint">Boiling point :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="vanderwaalsRadius">Vanderwaals radius :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="ionicRadius">Ionic radius :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="isotopes">Isotopes :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="electronicShell">Electronic shell :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="energy">Energy of first ionisation :</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted" id="discovered">Discovered by :</th>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <p id="description">* Hydrogen was observed and collected long before it was recognized as a unique
+                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
+                    </p>
+                    <hr>
+                    <h2 id="titleFirst">Hidrojen</h2>
+                    <p id="contentFirst">* Hydrogen was observed and collected long before it was recognized as a unique
+                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
+                    </p>
+                    <h2 id="titleSecond">Hidrojen</h2>
+                    <p id="contentSecond">* Hydrogen was observed and collected long before it was recognized as a
+                        unique
+                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
+                    </p>
+                    <h2 id="titleThird">Hidrojen</h2>
+                    <p id="contentThird">* Hydrogen was observed and collected long before it was recognized as a unique
+                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="periodic__table">
+            <div class="line">
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Hydrogen</li>
+                            <li class="symbol" title="Symbol">H</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">1.008</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">1</span>
+                </div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Helium</li>
+                            <li class="symbol" title="Symbol">He</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">4.003</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">2</span>
+                </div>
+            </div>
+            <div class="line">
+                <div class="box">
+                    <div class="element alkali__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Lithium</li>
+                            <li class="symbol" title="Symbol">Li</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">6.941</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">3</span>
+                </div>
+                <div class="box">
+                    <div class="element alkaline__earth__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Beryllium</li>
+                            <li class="symbol" title="Symbol">Be</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">9.012</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">4</span>
+                </div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Boron</li>
+                            <li class="symbol" title="Symbol">B</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">10.81</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">5</span>
+                </div>
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Carbon</li>
+                            <li class="symbol" title="Symbol">C</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">12.01</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">6</span>
+                </div>
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Nitrogen</li>
+                            <li class="symbol" title="Symbol">N</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">14.01</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">7</span>
+                </div>
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Oxygen</li>
+                            <li class="symbol" title="Symbol">O</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">16.00</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">8</span>
+                </div>
+                <div class="box">
+                    <div class="element halogen">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Fluorine</li>
+                            <li class="symbol" title="Symbol">F</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">19.00</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">9</span>
+                </div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Neon</li>
+                            <li class="symbol" title="Symbol">Ne</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">20.18</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">10</span>
+                </div>
+            </div>
+            <div class="line">
+                <div class="box">
+                    <div class="element alkali__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Sodium</li>
+                            <li class="symbol" title="Symbol">Na</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">22.09</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">11</span>
+                </div>
+                <div class="box">
+                    <div class="element alkaline__earth__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Magnesium</li>
+                            <li class="symbol" title="Symbol">Mg</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">24.31</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">12</span>
+                </div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Aluminium</li>
+                            <li class="symbol" title="Symbol">Al</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">26.98</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">13</span>
+                </div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Silicon</li>
+                            <li class="symbol" title="Symbol">Si
+                            <li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">28.09</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">14</span>
+                </div>
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Phosphours</li>
+                            <li class="symbol" title="Symbol">P</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">30.97</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">15</span>
+                </div>
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Sulfur</li>
+                            <li class="symbol" title="Symbol">S</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">32.07</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">16</span>
+                </div>
+                <div class="box">
+                    <div class="element halogen">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Chlorine</li>
+                            <li class="symbol" title="Symbol">Cl</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">35.45</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">17</span>
+                </div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Argon</li>
+                            <li class="symbol" title="Symbol">Ar</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">39.95</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">18</span>
+                </div>
+            </div>
+            <div class="line">
+                <div class="box">
+                    <div class="element alkali__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Potassium</li>
+                            <li class="symbol" title="Symbol">K</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">39.10</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">19</span>
+                </div>
+                <div class="box">
+                    <div class="element alkaline__earth__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Calcium</li>
+                            <li class="symbol" title="Symbol">Ca</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">40.08</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">20</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Scandium</li>
+                            <li class="symbol" title="Symbol">Sc</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">44.96</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">21</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Titanium</li>
+                            <li class="symbol" title="Symbol">Ti</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">47.87</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">22</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Vanadium</li>
+                            <li class="symbol" title="Symbol">V</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">50.94</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">23</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Chromium</li>
+                            <li class="symbol" title="Symbol">Cr</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">52.00</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">24</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Manganese</li>
+                            <li class="symbol" title="Symbol">Mn</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">54.94</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">25</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Iron</li>
+                            <li class="symbol" title="Symbol">F</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">55.84</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">26</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Cobalt</li>
+                            <li class="symbol" title="Symbol">Co</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">58.93</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">27</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Nickel</li>
+                            <li class="symbol" title="Symbol">Ni</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">58.69</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">28</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Copper</li>
+                            <li class="symbol" title="Symbol">Cu</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">63.55</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">29</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Zinc</li>
+                            <li class="symbol" title="Symbol">Zn</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">65.39</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">30</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Gallium</li>
+                            <li class="symbol" title="Symbol">Ga</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">69.72</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">31</span>
+                </div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Garmanium</li>
+                            <li class="symbol" title="Symbol">Ge
+                            <li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">72.63</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">32</span>
+                </div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Arsenic</li>
+                            <li class="symbol" title="Symbol">As</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">74.92</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">33</span>
+                </div>
+                <div class="box">
+                    <div class="element nonmetal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Selenium</li>
+                            <li class="symbol" title="Symbol">Se</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">78.96</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">34</span>
+                </div>
+                <div class="box">
+                    <div class="element halogen">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Bromine</li>
+                            <li class="symbol" title="Symbol">Br</li>
+                            <li class="state" title="Element States">&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">79.90</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">35</span>
+                </div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Krypton</li>
+                            <li class="symbol" title="Symbol">Kr</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">83.80</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">36</span>
+                </div>
+            </div>
+            <div class="line">
+                <div class="box">
+                    <div class="element alkali__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Rubidium</li>
+                            <li class="symbol" title="Symbol">Rb</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">85.47</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">37</span>
+                </div>
+                <div class="box">
+                    <div class="element alkaline__earth__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Strontium</li>
+                            <li class="symbol" title="Symbol">Sr</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">87.62</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">38</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Yttrium</li>
+                            <li class="symbol" title="Symbol">Y</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">88.91</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">39</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Zirconium</li>
+                            <li class="symbol" title="Symbol">Zr</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">91.22</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">40</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Niobium</li>
+                            <li class="symbol" title="Symbol">Nb</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">92.91</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">41</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Molybdenum</li>
+                            <li class="symbol" title="Symbol">Mo</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">95.94</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">42</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Techneium</li>
+                            <li class="symbol" title="Symbol">Tc</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[98]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">43</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Ruthenium</li>
+                            <li class="symbol" title="Symbol">Ru</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">101.07</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">44</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Rhodium</li>
+                            <li class="symbol" title="Symbol">Rh</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">102.91</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">45</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Palladium</li>
+                            <li class="symbol" title="Symbol">Pd</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">106.42</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">46</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Silver</li>
+                            <li class="symbol" title="Symbol">Ag</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">107.07</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">47</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Cadmium</li>
+                            <li class="symbol" title="Symbol">Cd</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">112.41</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">48</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Indium</li>
+                            <li class="symbol" title="Symbol">In</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">114.82</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">49</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Tin</li>
+                            <li class="symbol" title="Symbol">Sn
+                            <li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">108.71</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">50</span>
+                </div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Antimony</li>
+                            <li class="symbol" title="Symbol">Sb</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">121.76</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">51</span>
+                </div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Tellurium</li>
+                            <li class="symbol" title="Symbol">Te</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">127.60</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">52</span>
+                </div>
+                <div class="box">
+                    <div class="element halogen">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Iodine</li>
+                            <li class="symbol" title="Symbol">I</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">126.90</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">53</span>
+                </div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Xenon</li>
+                            <li class="symbol" title="Symbol">Xe</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">131.29</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">54</span>
+                </div>
+            </div>
+            <div class="line">
+                <div class="box">
+                    <div class="element alkali__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Caesium</li>
+                            <li class="symbol" title="Symbol">Cs</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">132.91</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">55</span>
+                </div>
+                <div class="box">
+                    <div class="element alkaline__earth__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Barium</li>
+                            <li class="symbol" title="Symbol">Ba</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">137.33</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">56</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">LANTHANIDES</li>
+                            <li class="symbol" title="Symbol">&#11175;</li>
+                            <!-- <li class="state" title="Element States">&#8727;</li> -->
+                            <!-- <li class="atomic_weight" title="Atomic Weight">88.91</li> -->
+                        </ul>
+                    </div>
+                    <!-- <span class="atomic__number">39</span> -->
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Hafnium</li>
+                            <li class="symbol" title="Symbol">Hf</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">178.49</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">72</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Tantalum</li>
+                            <li class="symbol" title="Symbol">Ta</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">180.95</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">73</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Tungsten</li>
+                            <li class="symbol" title="Symbol">W</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">183.84</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">74</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Rhenium</li>
+                            <li class="symbol" title="Symbol">Re</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">186.21</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">75</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Osmium</li>
+                            <li class="symbol" title="Symbol">Os</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">190.23</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">76</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Iridium</li>
+                            <li class="symbol" title="Symbol">Ir</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">192.22</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">77</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Platium</li>
+                            <li class="symbol" title="Symbol">Pt</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">195.08</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">78</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Gold</li>
+                            <li class="symbol" title="Symbol">Au</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">196.97</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">79</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Mercury</li>
+                            <li class="symbol" title="Symbol">Hg</li>
+                            <li class="state" title="Element States">&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">200.59</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">80</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Thallium</li>
+                            <li class="symbol" title="Symbol">Tl</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">204.38</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">81</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Lead</li>
+                            <li class="symbol" title="Symbol">Pb
+                            <li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">207.2</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">82</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Bismuth</li>
+                            <li class="symbol" title="Symbol">Bi</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">208.98</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">83</span>
+                </div>
+                <div class="box">
+                    <div class="element metalloid">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Polonium</li>
+                            <li class="symbol" title="Symbol">Po</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[209]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">84</span>
+                </div>
+                <div class="box">
+                    <div class="element halogen">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Astatine</li>
+                            <li class="symbol" title="Symbol">At</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[210]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">85</span>
+                </div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Radon</li>
+                            <li class="symbol" title="Symbol">Rn</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">222</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">86</span>
+                </div>
+            </div>
+            <div class="line">
+                <div class="box">
+                    <div class="element alkali__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Francium</li>
+                            <li class="symbol" title="Symbol">Fr</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[223]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">87</span>
+                </div>
+                <div class="box">
+                    <div class="element alkaline__earth__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Radium</li>
+                            <li class="symbol" title="Symbol">Ra</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[226]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">88</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">ACTINIDES</li>
+                            <li class="symbol" title="Symbol">&#11175;</li>
+                            <!-- <li class="state" title="Element States">&#8727;</li> -->
+                            <!-- <li class="atomic_weight" title="Atomic Weight">88.91</li> -->
+                        </ul>
+                    </div>
+                    <!-- <span class="atomic__number">39</span> -->
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Rutherfordium</li>
+                            <li class="symbol" title="Symbol">Rf</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[267]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">104</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Dubnium</li>
+                            <li class="symbol" title="Symbol">Db</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[268]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">105</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Seaborgium</li>
+                            <li class="symbol" title="Symbol">Sg</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[269]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">106</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Bohrium</li>
+                            <li class="symbol" title="Symbol">Bh</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[270]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">107</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Hassium</li>
+                            <li class="symbol" title="Symbol">Hs</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[269]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">108</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Meitnerium</li>
+                            <li class="symbol" title="Symbol">Mt</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[278]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">109</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Darmstadtium</li>
+                            <li class="symbol" title="Symbol">Ds</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[281]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">110</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Roentgenium</li>
+                            <li class="symbol" title="Symbol">Rg</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[281]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">111</span>
+                </div>
+                <div class="box">
+                    <div class="element transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Copernicium</li>
+                            <li class="symbol" title="Symbol">Cn</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[285]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">112</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Nihonium</li>
+                            <li class="symbol" title="Symbol">Nh</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[286]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">113</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Flerovium</li>
+                            <li class="symbol" title="Symbol">Fl
+                            <li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[289]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">114</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Moscovium</li>
+                            <li class="symbol" title="Symbol">Mc</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[289]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">115</span>
+                </div>
+                <div class="box">
+                    <div class="element post__transition__metal">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Livermorium</li>
+                            <li class="symbol" title="Symbol">Lv</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[293]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">116</span>
+                </div>
+                <div class="box">
+                    <div class="element halogen">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Tennessine</li>
+                            <li class="symbol" title="Symbol">Ts</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[294]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">117</span>
+                </div>
+                <div class="box">
+                    <div class="element noble__gas">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Oganesson</li>
+                            <li class="symbol" title="Symbol">Og</li>
+                            <li class="state" title="Element States">&#8727;&#8727;&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[294]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">118</span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="line">
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Lanthanum</li>
+                            <li class="symbol" title="Symbol">La</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">138.91</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">57</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Cerium</li>
+                            <li class="symbol" title="Symbol">Ce</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">140.12</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">58</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Praseodymium</li>
+                            <li class="symbol" title="Symbol">Pr</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">140.91</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">59</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Neodymium</li>
+                            <li class="symbol" title="Symbol">Nd</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">144.24</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">60</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Promethium</li>
+                            <li class="symbol" title="Symbol">Pm</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[145]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">61</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Samarium</li>
+                            <li class="symbol" title="Symbol">Sm</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">150.36</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">62</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Europium</li>
+                            <li class="symbol" title="Symbol">Eu</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">151.96</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">63</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Gadolinium</li>
+                            <li class="symbol" title="Symbol">Gd</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">157.25</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">64</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Terbium</li>
+                            <li class="symbol" title="Symbol">Tb</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">158.93</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">65</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Dysprosium</li>
+                            <li class="symbol" title="Symbol">Dy</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">162.50</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">66</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Holmium</li>
+                            <li class="symbol" title="Symbol">Ho</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">164.93</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">67</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Erbium</li>
+                            <li class="symbol" title="Symbol">Er</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">167.26</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">68</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Thulium</li>
+                            <li class="symbol" title="Symbol">Tm</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">168.93</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">69</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Ytterbium</li>
+                            <li class="symbol" title="Symbol">Yb</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">173.04</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">70</span>
+                </div>
+                <div class="box">
+                    <div class="element lanthanide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Lutetium</li>
+                            <li class="symbol" title="Symbol">Lu</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">174.97</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">71</span>
+                </div>
+                <div class="box empty-spacer"></div>
+            </div>
+            <div class="line">
+                <div class="box empty-spacer"></div>
+                <div class="box empty-spacer"></div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Actinium</li>
+                            <li class="symbol" title="Symbol">Ac</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[227]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">89</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Thorium</li>
+                            <li class="symbol" title="Symbol">Th</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">232.04</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">90</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Protactinium</li>
+                            <li class="symbol" title="Symbol">Pa</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">231.04</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">91</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Urainum</li>
+                            <li class="symbol" title="Symbol">U</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">238.03</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">92</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Neptunium</li>
+                            <li class="symbol" title="Symbol">Np</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[237]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">93</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Plutonium</li>
+                            <li class="symbol" title="Symbol">Pu</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[244]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">94</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Americium</li>
+                            <li class="symbol" title="Symbol">Am</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[243]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">95</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Curium</li>
+                            <li class="symbol" title="Symbol">Cm</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[247]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">96</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Berkelium</li>
+                            <li class="symbol" title="Symbol">Bk</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[247]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">97</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Californium</li>
+                            <li class="symbol" title="Symbol">Cf</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[251]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">98</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Einsteinium</li>
+                            <li class="symbol" title="Symbol">Es</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[252]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">99</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Fermium</li>
+                            <li class="symbol" title="Symbol">Fm</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[257]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">100</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Mendelevium</li>
+                            <li class="symbol" title="Symbol">Md</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[258]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">101</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Nobelium</li>
+                            <li class="symbol" title="Symbol">No</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[259]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">102</span>
+                </div>
+                <div class="box">
+                    <div class="element actinide">
+                        <ul class="information__list">
+                            <li class="name" title="Element Name">Lawrencium</li>
+                            <li class="symbol" title="Symbol">Lr</li>
+                            <li class="state" title="Element States">&#8727;</li>
+                            <li class="atomic_weight" title="Atomic Weight">[262]</li>
+                        </ul>
+                    </div>
+                    <span class="atomic__number">103</span>
+                </div>
+                <div class="box empty-spacer"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+
+</html>
