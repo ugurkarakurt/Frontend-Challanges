@@ -6,98 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/atom.svg" type="image/icon type">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Periodic Table</title>
 </head>
 
 <body>
-    <div class="modal fade" id="information" tabindex="-1" aria-labelledby="informationLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title" id="informationLabel">Hidrojen</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <table class="table table-striped table-bordered">
-                        <tbody>
-                            <tr>
-                                <th class="text-muted" id="atomicNumber">Atomic number :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="atomicMass">Atomic mass :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="electronegravity">Electronegativity according to Pauling :
-                                </th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="desity">Density :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="meltingPoint">Melting point :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="boilingPoint">Boiling point :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="vanderwaalsRadius">Vanderwaals radius :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="ionicRadius">Ionic radius :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="isotopes">Isotopes :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="electronicShell">Electronic shell :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="energy">Energy of first ionisation :</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th class="text-muted" id="discovered">Discovered by :</th>
-                                <td>1</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <hr>
-                    <p id="description">* Hydrogen was observed and collected long before it was recognized as a unique
-                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
-                    </p>
-                    <hr>
-                    <h2 id="titleFirst">Hidrojen</h2>
-                    <p id="contentFirst">* Hydrogen was observed and collected long before it was recognized as a unique
-                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
-                    </p>
-                    <h2 id="titleSecond">Hidrojen</h2>
-                    <p id="contentSecond">* Hydrogen was observed and collected long before it was recognized as a
-                        unique
-                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
-                    </p>
-                    <h2 id="titleThird">Hidrojen</h2>
-                    <p id="contentThird">* Hydrogen was observed and collected long before it was recognized as a unique
-                        gas by Robert Boyle in 1671, who dissolved iron in diluted hydrochloric acid.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
     <main>
         <div class="periodic__table">
+            <div class="info__table">
+                <div class="column">
+                    <ul>
+                        <li class="changeCheck nonmetal__info">
+                            <span></span>
+                            <span>Nonmetal</span>
+                        </li>
+                        <li class="changeCheck alkali__metal__info">
+                            <span></span>
+                            <span>Alkali Metal</span>
+                        </li>
+                        <li class="changeCheck alkaline__metal__earth__info">
+                            <span></span>
+                            <span>Alkaline Metal</span>
+                        </li>
+                        <li class="changeCheck transition__metal__info">
+                            <span></span>
+                            <span>Transition Metal</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="changeCheck lanthande__info">
+                            <span></span>
+                            <span>Lanthanide</span>
+                        </li>
+                        <li class="changeCheck actinide__info">
+                            <span></span>
+                            <span>Actinide</span>
+                        </li>
+                        <li class="changeCheck metalloid__info">
+                            <span></span>
+                            <span>Metalloid</span>
+                        </li>
+                        <li class="changeCheck post__transition__metal__info">
+                            <span></span>
+                            <span>Post Transition Metal</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="changeCheck halogen__info">
+                            <span></span>
+                            <span>Halogen</span>
+                        </li>
+                        <li class="changeCheck noble__gas__info">
+                            <span></span>
+                            <span>Noble Gas</span>
+                        </li>
+                        <li class="changeCheck status__info">
+                            <span>*&nbsp;&nbsp;&nbsp;Solid</span>
+                            <span>**&nbsp;&nbsp;Liquid</span>
+                            <span>***&nbsp;Gas</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="line">
                 <div class="box">
                     <div class="element nonmetal">
@@ -765,10 +739,11 @@
                     <span class="atomic__number">56</span>
                 </div>
                 <div class="box">
-                    <div class="element lanthanide">
+                    <div class="element lanthanide" style="display: flex; align-items: center;">
                         <ul class="information__list">
                             <li class="name" title="Element Name">LANTHANIDES</li>
-                            <li class="symbol" title="Symbol">&#11175;</li>
+                            <li class="symbol" title="Symbol"><img width="30px" src="./assets/images/down-arrow.svg"
+                                    alt=""></li>
                             <!-- <li class="state" title="Element States">&#8727;</li> -->
                             <!-- <li class="atomic_weight" title="Atomic Weight">88.91</li> -->
                         </ul>
@@ -966,10 +941,11 @@
                     <span class="atomic__number">88</span>
                 </div>
                 <div class="box">
-                    <div class="element actinide">
+                    <div class="element actinide" style="display: flex; align-items: center;">
                         <ul class="information__list">
                             <li class="name" title="Element Name">ACTINIDES</li>
-                            <li class="symbol" title="Symbol">&#11175;</li>
+                            <li class="symbol" title="Symbol"><img width="30px" src="./assets/images/down-arrow.svg"
+                                    alt=""></li>
                             <!-- <li class="state" title="Element States">&#8727;</li> -->
                             <!-- <li class="atomic_weight" title="Atomic Weight">88.91</li> -->
                         </ul>
@@ -1487,12 +1463,6 @@
             </div>
         </div>
     </main>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
 
     <script type="module" src="./assets/js/app.js"></script>
 </body>

@@ -33,22 +33,189 @@ table {
   font-family: "Comfortaa", cursive !important;
   font-weight: 700; }
 
-#information {
-  line-height: 2rem; }
-  #information h1 {
-    font-size: 1.5rem; }
-  #information .modal-body {
-    padding: 2rem 1; }
-
 main {
-  background: #e1e8eb;
+  background: #fff;
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
   main .periodic__table {
+    position: relative;
     color: #fff; }
+    main .periodic__table .info__table {
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000;
+      position: absolute;
+      top: 20px;
+      left: 300px; }
+      main .periodic__table .info__table li {
+        user-select: none;
+        cursor: pointer;
+        width: 150px;
+        margin: 10px;
+        transition: all 0.1s ease-in-out; }
+        main .periodic__table .info__table li:hover {
+          transform: scale(1.1); }
+      main .periodic__table .info__table .nonmetal__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .nonmetal__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #128370;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .nonmetal__info span:last-child {
+          font-size: 0.7rem;
+          color: #128370; }
+      main .periodic__table .info__table .alkali__metal__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .alkali__metal__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #0c5b4e;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .alkali__metal__info span:last-child {
+          font-size: 0.7rem;
+          color: #0c5b4e; }
+      main .periodic__table .info__table .alkaline__metal__earth__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .alkaline__metal__earth__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #016c9a;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .alkaline__metal__earth__info span:last-child {
+          font-size: 0.7rem;
+          color: #016c9a; }
+      main .periodic__table .info__table .transition__metal__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .transition__metal__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #6f2f91;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .transition__metal__info span:last-child {
+          font-size: 0.7rem;
+          color: #6f2f91; }
+      main .periodic__table .info__table .lanthande__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .lanthande__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #af1f4f;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .lanthande__info span:last-child {
+          font-size: 0.7rem;
+          color: #af1f4f; }
+      main .periodic__table .info__table .actinide__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .actinide__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #64122d;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .actinide__info span:last-child {
+          font-size: 0.7rem;
+          color: #64122d; }
+      main .periodic__table .info__table .metalloid__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .metalloid__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #17bed0;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .metalloid__info span:last-child {
+          font-size: 0.7rem;
+          color: #17bed0; }
+      main .periodic__table .info__table .post__transition__metal__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .post__transition__metal__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #f4c20d;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .post__transition__metal__info span:last-child {
+          font-size: 0.7rem;
+          color: #f4c20d; }
+      main .periodic__table .info__table .halogen__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .halogen__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #f5c0c0;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .halogen__info span:last-child {
+          font-size: 0.7rem;
+          color: #f5c0c0; }
+      main .periodic__table .info__table .noble__gas__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        main .periodic__table .info__table .noble__gas__info span:first-child {
+          width: 20px;
+          height: 20px;
+          background-color: #f08fc0;
+          border-radius: 5px;
+          clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+          margin-right: 5px; }
+        main .periodic__table .info__table .noble__gas__info span:last-child {
+          font-size: 0.7rem;
+          color: #f08fc0; }
+      main .periodic__table .info__table .status__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 5px;
+        border-radius: 5px;
+        width: 50%;
+        background-color: #53b8bb;
+        cursor: default; }
+        main .periodic__table .info__table .status__info:hover {
+          transform: scale(1); }
+        main .periodic__table .info__table .status__info span {
+          color: #fff;
+          margin-top: 2px;
+          font-size: 0.7rem; }
     main .periodic__table .line {
       display: flex;
       justify-content: center;
@@ -89,6 +256,8 @@ main {
               display: block; }
             main .periodic__table .line .box .element:hover .information__list .symbol {
               font-size: 1.2rem; }
+              main .periodic__table .line .box .element:hover .information__list .symbol img {
+                filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(220deg) brightness(99%) contrast(102%); }
             main .periodic__table .line .box .element:hover .information__list .state {
               font-size: 0.8rem; }
             main .periodic__table .line .box .element:hover .information__list .atomic_weight {
@@ -99,9 +268,9 @@ main {
             color: #128370;
             background-color: #fff; }
         main .periodic__table .line .box .noble__gas {
-          background-color: #e1c1cc; }
+          background-color: #f08fc0; }
           main .periodic__table .line .box .noble__gas:hover {
-            color: #e1c1cc;
+            color: #f08fc0;
             background-color: #fff; }
         main .periodic__table .line .box .alkali__metal {
           background-color: #0c5b4e; }
@@ -119,9 +288,9 @@ main {
             color: #17bed0;
             background-color: #fff; }
         main .periodic__table .line .box .halogen {
-          background-color: #fedbb5; }
+          background-color: #f5c0c0; }
           main .periodic__table .line .box .halogen:hover {
-            color: #fedbb5;
+            color: #f5c0c0;
             background-color: #fff; }
         main .periodic__table .line .box .post__transition__metal {
           background-color: #f4c20d; }

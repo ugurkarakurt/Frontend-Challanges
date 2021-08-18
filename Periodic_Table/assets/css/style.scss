@@ -6,24 +6,247 @@
     font-family: "Comfortaa", cursive !important;
     font-weight: 700;
 }
-#information {
-    line-height: 2rem;
-    h1{
-        font-size: 1.5rem;
-    }
-    .modal-body {
-        padding: 2rem 1;
-    }
-}
+
 main {
-    background: #e1e8eb;
+    background: #fff;
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     .periodic__table {
+        position: relative;
         color: #fff;
+        .info__table {
+            z-index: 999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            position: absolute;
+            top: 20px;
+            left: 300px;
+            li {
+                user-select: none;
+                cursor: pointer;
+                width: 150px;
+                margin: 10px;
+                transition: all 0.1s ease-in-out;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .nonmetal__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #128370;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #128370;
+                    }
+                }
+            }
+            .alkali__metal__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #0c5b4e;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #0c5b4e;
+                    }
+                }
+            }
+            .alkaline__metal__earth__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #016c9a;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #016c9a;
+                    }
+                }
+            }
+            .transition__metal__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #6f2f91;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #6f2f91;
+                    }
+                }
+            }
+            .lanthande__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #af1f4f;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #af1f4f;
+                    }
+                }
+            }
+            .actinide__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #64122d;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #64122d;
+                    }
+                }
+            }
+            .metalloid__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #17bed0;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #17bed0;
+                    }
+                }
+            }
+            .post__transition__metal__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #f4c20d;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #f4c20d;
+                    }
+                }
+            }
+            .halogen__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #f5c0c0;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #f5c0c0;
+                    }
+                }
+            }
+
+            .noble__gas__info {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span {
+                    &:first-child {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #f08fc0;
+                        border-radius: 5px;
+                        clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        font-size: 0.7rem;
+                        color: #f08fc0;
+                    }
+                }
+            }
+            .status__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 5px;
+                border-radius: 5px;
+                width: 50%;
+                background-color: #53b8bb;
+                cursor: default;
+                &:hover {
+                    transform: scale(1);
+                }
+                span {
+                    color: #fff;
+                    margin-top: 2px;
+                    font-size: 0.7rem;
+                }
+            }
+        }
         .line {
             display: flex;
             justify-content: center;
@@ -72,6 +295,10 @@ main {
                             }
                             .symbol {
                                 font-size: 1.2rem;
+                                img {
+                                    filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(220deg) brightness(99%)
+                                        contrast(102%);
+                                }
                             }
                             .state {
                                 font-size: 0.8rem;
@@ -90,9 +317,9 @@ main {
                     }
                 }
                 .noble__gas {
-                    background-color: #e1c1cc;
+                    background-color: #f08fc0;
                     &:hover {
-                        color: #e1c1cc;
+                        color: #f08fc0;
                         background-color: #fff;
                     }
                 }
@@ -118,9 +345,9 @@ main {
                     }
                 }
                 .halogen {
-                    background-color: #fedbb5;
+                    background-color: #f5c0c0;
                     &:hover {
-                        color: #fedbb5;
+                        color: #f5c0c0;
                         background-color: #fff;
                     }
                 }
