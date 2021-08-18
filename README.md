@@ -1,7 +1,7 @@
 ## Frontend simple challanges
 ### Personal Portfolio
 
-- Visit > [Race_Car](https://ugurkarakurt.github.io/Frontend-Challanges/Periodic_Table/).
+- Visit > [Periodic Table](https://ugurkarakurt.github.io/Frontend-Challanges/Periodic_Table/).
 
   <img src="Periodic_Table/screenshot.png" data-canonical-src="Periodic_Table/screenshot.png" width="100%"/>
 
