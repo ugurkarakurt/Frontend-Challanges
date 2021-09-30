@@ -30,6 +30,7 @@ const periodicTableBasic = (function () {
     elements.forEach((element) => {
       element.addEventListener("click", function () {
         document.querySelector(".input__description").style.display = "none";
+        document.querySelector(".search").style.display = "none";
         ui.informationForElementUI(element);
         _closeModalEvent();
         search.value = "";
@@ -56,6 +57,7 @@ const periodicTableBasic = (function () {
       if (e.target.id === infoModal.id) {
         ui.closeModalEventFromUI(infoModal);
         document.querySelector(".input__description").style.display = "block";
+        document.querySelector(".search").style.display = "block";
       }
     });
 
@@ -63,6 +65,7 @@ const periodicTableBasic = (function () {
       ui.closeModalEventFromUI(infoModal);
       search.focus();
       document.querySelector(".input__description").style.display = "block";
+      document.querySelector(".search").style.display = "block";
     });
 
     document.addEventListener("keydown", function (event) {
@@ -70,6 +73,7 @@ const periodicTableBasic = (function () {
         ui.closeModalEventFromUI(infoModal);
         search.focus();
         document.querySelector(".input__description").style.display = "block";
+        document.querySelector(".search").style.display = "block";
       }
     });
   };

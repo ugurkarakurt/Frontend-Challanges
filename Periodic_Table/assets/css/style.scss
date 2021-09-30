@@ -63,7 +63,6 @@ body {
             width: 680px;
             height: 680px;
             background-color: rgba(0, 0, 0, 0.8);
-            transition: all 0.1s ease-in-out;
             clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 100%, 0 0);
             table {
                 width: 100%;
@@ -88,35 +87,38 @@ body {
     }
 }
 
-.search {
-    padding: 5px 20px;
-    text-align: left;
-    z-index: 998;
-    background: linear-gradient(
-        193deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(148, 154, 159, 0) 80%,
-        rgba(185, 193, 199, 0.2455182756696429) 100%
-    );
+.search__wrapper {
     position: absolute;
     top: 7%;
-    right: 20%;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-    color: transparent;
-    text-shadow: 0 0 0 #b9c1c7;
-    &:focus {
+    right: 25%;
+    z-index: 998;
+    display: flex;
+    flex-direction: column;
+    .search {
+        padding: 5px 20px;
+        text-align: left;
+        background: linear-gradient(
+            193deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(148, 154, 159, 0) 80%,
+            rgba(185, 193, 199, 0.2455182756696429) 100%
+        );
+
+        border-radius: 5px;
+        border: none;
         outline: none;
+        font-size: 0.8rem;
+        color: transparent;
+        text-shadow: 0 0 0 #b9c1c7;
+        &:focus {
+            outline: none;
+        }
     }
-}
-.input__description {
-    color: #b9c1c7;
-    position: absolute;
-    top: 12%;
-    right: 29%;
-    font-size: 0.7rem;
+    .input__description {
+        color: #b9c1c7;
+        margin-top: 0.5rem;
+        font-size: 0.7rem;
+    }
 }
 
 main {
@@ -141,7 +143,6 @@ main {
                 cursor: pointer;
                 width: 150px;
                 margin: 10px;
-                transition: all 0.1s ease-in-out;
                 &:hover {
                     transform: scale(1.1) !important;
                 }
@@ -369,9 +370,7 @@ main {
                 width: 70px;
                 height: 70px;
                 margin: 2px;
-                transition: all 0.1s ease-in-out;
                 .element {
-                    transition: all 0.1s ease-in-out;
                     cursor: pointer;
                     position: relative;
                     width: 100%;
