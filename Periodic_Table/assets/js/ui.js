@@ -224,12 +224,16 @@ export class UI {
                         <td>${element.atomic_number}</td>
                     </tr>
                     <tr>
+                        <th>Discovered By :</th>
+                        <td>${element.discovered_by}</td>
+                    </tr>
+                    <tr>
                         <th>Atomic Mass :</th>
                         <td>${element.atomic_mass}</td>
                     </tr>
                     <tr>
-                        <th>Electronegativity According to Pauling :</th>
-                        <td>${element.electronegativity_according_to_pauling}</td>
+                    <th>Electronegativity According to Pauling :</th>
+                    <td>${element.electronegativity_according_to_pauling}</td>
                     </tr>
                     <tr>
                         <th>Density :</th>
@@ -262,10 +266,6 @@ export class UI {
                     <tr>
                         <th>Energy of First Ionisation :</th>
                         <td>${element.energy_of_first_ionisation}</td>
-                    </tr>
-                    <tr>
-                        <th>Discovered By :</th>
-                        <td>${element.discovered_by}</td>
                     </tr>
                 </tbody>
             </table>

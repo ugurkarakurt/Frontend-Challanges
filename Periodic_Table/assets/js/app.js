@@ -83,6 +83,9 @@ const periodicTableBasic = (function () {
     document.addEventListener("keyup", function (e) {
       if (e.keyCode === 27) {
         search.value = "";
+        changeButtons.forEach((btn) => {
+          btn.classList.remove("grayscale");
+        });
         elements.forEach((element) => {
           element.classList.remove("active");
           element.classList.remove("grayscale");
