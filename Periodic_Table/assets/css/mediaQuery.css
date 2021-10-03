@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+  body {
+    min-width: 100%;
+    min-height: 18700px; }
+
+  .search__wrapper {
+    display: none; }
+
+  #infoModal {
+    font-size: 0.7rem; }
+    #infoModal .box {
+      height: 100%;
+      width: 100%; }
+      #infoModal .box .modal-content {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        clip-path: none; }
+      #infoModal .box .atomic__number {
+        font-size: 2rem;
+        bottom: 1rem;
+        right: 1rem; }
+
+  main {
+    width: 100%; }
+    main .periodic__table {
+      width: 100%; }
+      main .periodic__table .info__table {
+        display: none; }
+      main .periodic__table .line {
+        width: 100%;
+        flex-direction: column; }
+        main .periodic__table .line .empty-spacer {
+          display: none; }
+        main .periodic__table .line .box {
+          width: 90%;
+          height: 150px; }
+          main .periodic__table .line .box .element {
+            clip-path: none; }
+            main .periodic__table .line .box .element:hover {
+              width: 100%;
+              transform: scale(1); }
+              main .periodic__table .line .box .element:hover .information__list {
+                padding: 1rem;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column; }
+                main .periodic__table .line .box .element:hover .information__list .name {
+                  font-size: 1rem;
+                  display: block; }
+                main .periodic__table .line .box .element:hover .information__list .symbol {
+                  font-size: 2rem; }
+                main .periodic__table .line .box .element:hover .information__list .state {
+                  font-size: 1.1rem; }
+                main .periodic__table .line .box .element:hover .information__list .atomic_weight {
+                  font-size: 1rem; }
+            main .periodic__table .line .box .element .information__list {
+              padding: 1rem;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              flex-direction: column; }
+              main .periodic__table .line .box .element .information__list .name {
+                font-size: 1rem;
+                display: block; }
+              main .periodic__table .line .box .element .information__list .symbol {
+                font-size: 2rem; }
+              main .periodic__table .line .box .element .information__list .state {
+                font-size: 1.1rem; }
+              main .periodic__table .line .box .element .information__list .atomic_weight {
+                font-size: 1rem; }
+          main .periodic__table .line .box .atomic__number {
+            color: #fff;
+            font-size: 2rem;
+            right: 1rem;
+            bottom: 1rem; } }
+
+/*# sourceMappingURL=mediaQuery.css.map */
