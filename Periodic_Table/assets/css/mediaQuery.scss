@@ -7,6 +7,7 @@
         display: none;
     }
     #infoModal {
+        overflow-y: auto;
         font-size: 0.7rem;
         .box {
             height: 100%;
