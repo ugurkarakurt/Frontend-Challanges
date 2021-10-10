@@ -1,5 +1,4 @@
 @import "reset";
-@import "animation";
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 @font-face {
     font-family: "Pixel";
@@ -23,7 +22,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    .password__generator__wrrapper {
+    .password__generator__wrapper {
         width: 500px;
         height: 750px;
         padding: 35px 30px;
