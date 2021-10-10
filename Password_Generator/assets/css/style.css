@@ -71,8 +71,8 @@ main {
         text-align: center;
         height: 80px;
         background-color: #6a7adb;
-        color: rgba(0, 0, 0, 0.7);
-        text-shadow: 2px 2px 0 #e9e6e6; }
+        color: white;
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.746); }
     main .password__generator__wrapper .lenght .tag {
       font-size: 12px;
       padding-left: 10px; }
