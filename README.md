@@ -1,6 +1,13 @@
 ## Frontend simple challanges
 ### Personal Portfolio
 
+- Visit > [Password Generator](https://ugurkarakurt.github.io/Frontend-Challanges/Password_Generator/).
+
+  <img src="Password_Generator/screenshot.png" data-canonical-src="Password_Generator/screenshot.png" width="100%"/>
+
+<hr>
+<br>
+
 - Visit > [Periodic Table](https://ugurkarakurt.github.io/Frontend-Challanges/Periodic_Table/).
 
   <img src="Periodic_Table/screenshot.png" data-canonical-src="Periodic_Table/screenshot.png" width="100%"/>
