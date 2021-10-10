@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/key.png" type="image/icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaQuery.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <main>
+        <div class="password__generator__wrrapper">
+            <div class="title">
+                <h5>Password Generator</h5>
+            </div>
+            <div class="screen">
+                <input disabled id="display" type="text" name="display">
+            </div>
+            <div class="lenght">
+                <span class="tag">Lenght :
+                    <input type="number" min="0" max="32" id="rangevalue" value="8" oninput="range.value=value">
+                </span>
+                <div class="input__group">
+                    <input type="range" value="8" min="0" max="32" id="range" oninput="rangevalue.value=value" />
+                </div>
+            </div>
+            <div class="settings">
+                <span class="tag">
+                    Settings
+                </span>
+                <div class="input__group">
+                    <span>Include Uppercase</span>
+                    <label class="switch">
+                        <input type="checkbox" id="uppercase">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="input__group">
+                    <span>Include Lowercase</span>
+                    <label class="switch">
+                        <input type="checkbox" id="lowercase" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="input__group">
+                    <span>Include Numbers</span>
+                    <label class="switch">
+                        <input type="checkbox" id="numbers" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="input__group">
+                    <span>Include Symbols</span>
+                    <label class="switch">
+                        <input type="checkbox" id="symbols">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="generate">
+                <button id="generateButton">Generate Password</button>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+
+</html>
