@@ -15,12 +15,6 @@
 <hr>
 <br>
 
-- Visit > [Echarts Clock](https://ugurkarakurt.github.io/Frontend-Challanges/Clock/index.html) Refarance -> https://echarts.apache.org/en/index.html.
-  <img src="Clock/screenshot.png" data-canonical-src="Clock/screenshot.png" width="100%"/>
-
-<hr>
-<br>
-
 - Visit > [Seaway](https://ugurkarakurt.github.io/Frontend-Challanges/Seaway/index.html).
   <img src="Seaway/assets/images/video.gif" data-canonical-src="Seaway/assets/images/video.gif" width="100%"/>
 
