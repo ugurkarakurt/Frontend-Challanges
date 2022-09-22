@@ -28,9 +28,7 @@ const RandomCat = (function () {
             text && text.remove();
          }
       }).then(() => {
-         setTimeout(() => {
-            catImage.classList.add('active');
-         }, 700);
+         catImage.classList.add('active');
       })
    }
 
