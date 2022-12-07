@@ -2,7 +2,7 @@
 
 - Visit > [Flappy Plane](https://ugurkarakurt.github.io/Frontend-Challanges/Flappy-Plane/).
 
-  <img src="Flappy-Plane/assets/img/screenshot.png" data-canonical-src="Flappy-Plane/assets/img/screenshot.png" width="100%"/>
+  <img src="Flappy-Plane/assets/images/screenshot.png" data-canonical-src="Flappy-Plane/assets/images/screenshot.png" width="100%"/>
 
 <hr>
 <br>
