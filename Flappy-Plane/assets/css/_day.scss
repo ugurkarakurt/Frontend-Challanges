@@ -1,0 +1,366 @@
+.plane {
+  &::before {
+    content: "";
+    background-size: 40px;
+    background-image: url(../images/wind.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 80%;
+    z-index: 99;
+    top: 25%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    animation: shake 4s;
+    animation-iteration-count: infinite;
+  }
+
+  img {
+    width: 100%;
+    transform: rotateY(180deg);
+  }
+
+  .propeller {
+    top: 22px;
+    left: -11px;
+    position: absolute;
+    width: 30px;
+    animation: rotating .3s linear infinite;
+  }
+}
+
+.day {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  .cloud {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    &::before {
+      top: 100px;
+      left: -50px;
+      content: "";
+      background-size: 1000px 40px;
+      -webkit-animation: animate2 15s linear infinite;
+      animation: animate2 15s linear infinite;
+      background-image: url(../images/cloud.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 120%;
+      height: 100px;
+      -webkit-animation: clouds 15000s linear infinite;
+      animation: clouds 15000s linear infinite;
+      filter: drop-shadow(0 0 0.5rem $sky);
+    }
+
+    &::after {
+      left: 180px;
+      top: 200px;
+      content: "";
+      background-size: 800px 50px;
+      background-image: url(../images/cloud2.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 120%;
+      height: 100px;
+      -webkit-animation: clouds 25000s linear infinite;
+      animation: clouds 25000s linear infinite;
+      filter: drop-shadow(0 0 0.5rem $sky);
+    }
+  }
+
+  .cloud2 {
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    &::before {
+      left: 0px;
+      top: 0px;
+      content: "";
+      background-size: 800px 50px;
+      background-image: url(../images/cloud2.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 120%;
+      height: 100px;
+      -webkit-animation: clouds 25000s linear infinite;
+      animation: clouds 25000s linear infinite;
+      filter: drop-shadow(0 0 0.5rem $sky);
+    }
+
+    &::after {
+      top: 100px;
+      left: -100px;
+      content: "";
+      background-size: 1500px 200px;
+      background-image: url(../images/clouds.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 140%;
+      height: 300px;
+      -webkit-animation: clouds 30000s linear infinite;
+      animation: clouds 30000s linear infinite;
+      filter: drop-shadow(0 0 0.5rem $sky);
+    }
+  }
+
+  .cloud3 {
+    top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    &::before {
+      left: -200px;
+      top: 100px;
+      content: "";
+      background-size: 800px 100px;
+      background-image: url(../images/cloud3.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 140%;
+      height: 100px;
+      -webkit-animation: clouds 25000s linear infinite;
+      animation: clouds 25000s linear infinite;
+      filter: drop-shadow(0 0 0.5rem $sky);
+
+    }
+
+    &::after {
+      top: 150px;
+      left: -100px;
+      content: "";
+      background-size: 1000px 200px;
+      background-image: url(../images/cloud.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 140%;
+      height: 300px;
+      -webkit-animation: clouds 30000s linear infinite;
+      animation: clouds 30000s linear infinite;
+      filter: drop-shadow(0 0 0.5rem $sky);
+    }
+  }
+
+  .sun {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    z-index: 9999;
+    cursor: pointer;
+
+    &::before {
+      content: "";
+      background-size: 70px;
+      background-image: url(../images/sun.svg);
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-position: 50% 10%;
+      animation: yellowLight 0.5s linear infinite;
+    }
+  }
+
+  .mountain {
+    bottom: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+
+    &::before {
+      left: 0px;
+      bottom: 0px;
+      content: "";
+      background-size: 1000px 100px;
+      background-image: url(../images/big_mountain.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      animation: slide 500s linear infinite;
+    }
+
+    &::after {
+      left: 0px;
+      bottom: 0px;
+      content: "";
+      background-size: 1100px 140px;
+      background-image: url(../images/montain.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 100%;
+      height: 140px;
+      animation: slide 350s linear infinite;
+    }
+  }
+
+  .forest {
+    bottom: 41px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    &::before {
+      bottom: 0;
+      content: "";
+      background-size: 120px 30px;
+      background-image: url(../images/pine.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      animation: slide 100s linear infinite;
+    }
+
+    &::after {
+      left: 0px;
+      bottom: 0;
+      content: "";
+      background-size: 100px 30px;
+      background-image: url(../images/trees.svg);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      animation: slide 100s linear infinite;
+    }
+  }
+
+  .trees {
+    bottom: 42px;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+
+    &::before {
+      background-size: 1500px 60px;
+      bottom: 0;
+      content: "";
+      background-image: url(../images/tree.svg);
+      position: absolute;
+      width: 100%;
+      height: 60px;
+      animation: slide 55s linear infinite;
+    }
+
+    &::after {
+      bottom: 0px;
+      background-size: 1000px 80px;
+      content: "";
+      background-image: url(../images/tree1.svg);
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      animation: slide 60s linear infinite;
+    }
+  }
+
+  .bush {
+    background-repeat: repeat-x;
+    bottom: 33px;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+
+    &::before {
+      background-repeat: repeat-x;
+      background-size: 1000px 30px;
+      bottom: 0px;
+      content: "";
+      background-image: url(../images/bush.svg);
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      animation: slide 50s linear infinite;
+    }
+
+    &::after {
+      background-repeat: repeat-x;
+      background-size: 500px 30px;
+      bottom: 0px;
+      content: "";
+      background-image: url(../images/bushs.svg);
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      animation: slide 45s linear infinite;
+    }
+  }
+
+  .stones {
+    background-repeat: repeat-x;
+    bottom: 37px;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+
+    &::before {
+      background-repeat: repeat-x;
+      background-size: 1000px 15px;
+      bottom: 0px;
+      content: "";
+      background-image: url(../images/stone.svg);
+      position: absolute;
+      width: 100%;
+      height: 15px;
+      animation: slide 40s linear infinite;
+    }
+
+    &::after {
+      background-repeat: repeat-x;
+      background-size: 1200px 30px;
+      bottom: 0px;
+      content: "";
+      background-image: url(../images/rock.svg);
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      animation: slide 35s linear infinite;
+    }
+  }
+
+  .soil {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    z-index: 99;
+
+    &::after {
+      bottom: 0;
+      content: "";
+      background-size: 150px 70px;
+      background-image: url(../images/soil.png);
+      background-repeat: repeat-x;
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      animation: slide 100s linear infinite;
+    }
+  }
+}

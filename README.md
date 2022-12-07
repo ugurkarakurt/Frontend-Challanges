@@ -1,5 +1,13 @@
 ## Frontend simple challanges
 
+- Visit > [Random Cat](https://ugurkarakurt.github.io/Frontend-Challanges/Flappy-Plane/).
+
+  <img src="Flappy-Plane/assets/img/cat.png" data-canonical-src="Flappy-Plane/assets/img/cat.png" width="100%"/>
+
+<hr>
+<br>
+
+
 - Visit > [Random Cat](https://ugurkarakurt.github.io/Frontend-Challanges/Random-Cat/).
 
   <img src="Random-Cat/assets/img/cat.png" data-canonical-src="Random-Cat/assets/img/cat.png" width="100%"/>

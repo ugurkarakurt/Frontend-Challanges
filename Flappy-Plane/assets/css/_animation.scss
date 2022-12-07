@@ -1,0 +1,422 @@
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.05);
+    transform: scale(0.05);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.05);
+    transform: scale(0.05);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.scale-down-center {
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.05);
+    transform: scale(0.05);
+  }
+}
+
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.05);
+    transform: scale(0.05);
+  }
+}
+
+
+
+@keyframes slide {
+  100% {
+    background-position: 2000px;
+  }
+}
+
+@keyframes yellowLight {
+  0% {
+    filter: drop-shadow(0 0 1rem#DEC235);
+  }
+
+  10% {
+    filter: drop-shadow(0 0 0.9rem#DEC235);
+  }
+
+  20% {
+    filter: drop-shadow(0 0 0.7rem#DEC235);
+  }
+
+  30% {
+    filter: drop-shadow(0 0 0.4rem#DEC235);
+  }
+
+  40% {
+    filter: drop-shadow(0 0 0.5rem#DEC235);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 0.8rem#DEC235);
+  }
+
+  60% {
+    filter: drop-shadow(0 0 0.6rem#DEC235);
+  }
+
+  70% {
+    filter: drop-shadow(0 0 0.7rem#DEC235);
+  }
+
+  80% {
+    filter: drop-shadow(0 0 0.6rem#DEC235);
+  }
+
+  90% {
+    filter: drop-shadow(0 0 0.5rem#DEC235);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 0.8rem#DEC235);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotateY(80deg) rotateZ(0deg);
+    -moz-transform: rotateY(80deg) rotateZ(0deg);
+    -webkit-transform: rotateY(80deg) rotateZ(0deg);
+    -o-transform: rotateY(80deg) rotateZ(0deg);
+    transform: rotateY(80deg) rotateZ(0deg);
+  }
+
+  to {
+    -ms-transform: rotateY(80deg) rotateZ(360deg);
+    -moz-transform: rotateY(80deg)rotateZ(360deg);
+    -webkit-transform: rotateY(80deg) rotateZ(360deg);
+    -o-transform: rotateY(80deg) rotateZ(360deg);
+    transform: rotateY(80deg)rotateZ(360deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(1px, 1px);
+  }
+
+  10% {
+    transform: translate(-3px, -5px);
+  }
+
+  20% {
+    transform: translate(-5px, -2px);
+  }
+
+  30% {
+    transform: translate(5px, 4px);
+  }
+
+  40% {
+    transform: translate(2px, -1px);
+  }
+
+  50% {
+    transform: translate(-1px, 2px);
+  }
+
+  60% {
+    transform: translate(-3px, 1px);
+  }
+
+  70% {
+    transform: translate(3px, 1px);
+  }
+
+  80% {
+    transform: translate(-1px, -1px);
+  }
+
+  90% {
+    transform: translate(1px, 2px);
+  }
+
+  100% {
+    transform: translate(1px, 3px);
+  }
+}
+
+// @-webkit-keyframes clouds {
+//   0% {
+//     background-position: 0;
+//   }
+
+//   100% {
+//     background-position: 99999px;
+//   }
+// }
+
+// @keyframes clouds {
+//   0% {
+//     background-position: 0;
+//   }
+
+//   100% {
+//     background-position: 99999px;
+//   }
+// }
+
+
+// ==== Drop - Shadow ==== //
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// flicker effect
+@keyframes flicker {
+  0% {
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(1deg) scaleY(1.04);
+    -ms-transform: rotate(1deg) scaleY(1.04);
+    transform: rotate(1deg) scaleY(1.04);
+  }
+
+  80% {
+    -webkit-transform: rotate(-2deg) scaleY(0.92);
+    -ms-transform: rotate(-2deg) scaleY(0.92);
+    transform: rotate(-2deg) scaleY(0.92);
+  }
+
+  100% {
+    -webkit-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+}
+
+//============================================================
+// REFERANCE  === https://codepen.io/saransh/pen/BKJun ====
+//============================================================
+
+// Small white star
+@function multiple-box-shadow($n, $color: #000) {
+  $value: "#{random(20000)}px #{random(2000)}px #{$color}";
+
+  @for $i from 2 through $n {
+    $value: " #{$value} , #{random(20000)}px #{random(2000)}px #{$color}";
+  }
+
+  @return unquote($value);
+}
+
+// Stars  translate
+@keyframes animStar {
+  from {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+
+  to {
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+
+
+// flicker effect
+@keyframes flicker {
+  0% {
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(1deg) scaleY(1.04);
+    -ms-transform: rotate(1deg) scaleY(1.04);
+    transform: rotate(1deg) scaleY(1.04);
+  }
+
+  80% {
+    -webkit-transform: rotate(-2deg) scaleY(0.92);
+    -ms-transform: rotate(-2deg) scaleY(0.92);
+    transform: rotate(-2deg) scaleY(0.92);
+  }
+
+  100% {
+    -webkit-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes saturn {
+  from {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+
+  to {
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+}
+
+
+@keyframes tail {
+  0% {
+    width: 0;
+  }
+
+  30% {
+    width: 100px;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes shining {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 30px;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(4000px);
+  }
+}
+
+@keyframes sky {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(45 + 360deg);
+  }
+}

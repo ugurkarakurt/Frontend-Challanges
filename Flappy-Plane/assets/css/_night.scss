@@ -1,0 +1,302 @@
+.starShip {
+  .spacecraft {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(../images/space-ship.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    cursor: pointer;
+    animation: fly 10s infinite;
+
+    .flames {
+      transform: rotate(90deg);
+    }
+
+    .container {
+      position: absolute;
+      left: 88px;
+      top: 85px;
+      animation-name: flicker;
+      -webkit-animation-duration: 3ms;
+      animation-duration: 3ms;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+
+    .container2 {
+      position: absolute;
+      left: 74px;
+      top: 85px;
+      -webkit-animation-name: flicker;
+      animation-name: flicker;
+      -webkit-animation-duration: 3ms;
+      animation-duration: 3ms;
+      -webkit-animation-delay: 200ms;
+      animation-delay: 200ms;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+  }
+}
+
+.flame {
+  bottom: 0;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  -webkit-transform: rotate(137deg) scale(1.5, 1.5);
+  -ms-transform: rotate(137deg) scale(1.5, 1.5);
+  transform: rotate(137deg) scale(1.5, 1.5);
+}
+
+.yellow {
+  left: 15px;
+  width: 5px;
+  height: 5px;
+  background: gold;
+  -webkit-box-shadow: 0px 0px 9px 4px gold;
+  box-shadow: 0px 0px 9px 4px gold;
+}
+
+.orange {
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  background: orange;
+  -webkit-box-shadow: 0px 0px 9px 4px orange;
+  box-shadow: 0px 0px 9px 4px orange;
+}
+
+.red {
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: OrangeRed;
+  -webkit-box-shadow: 0px 0px 5px 4px OrangeRed;
+  box-shadow: 0px 0px 5px 4px OrangeRed;
+}
+
+.white {
+  left: 12px;
+  bottom: -4px;
+  width: 7px;
+  height: 7px;
+  background: white;
+  -webkit-box-shadow: 0px 0px 9px 4px white;
+  box-shadow: 0px 0px 9px 4px white;
+}
+
+.night {
+  display: none;
+  $shadows: multiple-box-shadow(700, #fff);
+  $shadows5: multiple-box-shadow(700, #c7d8ff);
+  $shadows6: multiple-box-shadow(700, #ffe5cf);
+
+  &.active {
+    display: block;
+  }
+
+  .stars {
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+    -webkit-animation: animStar 100s linear infinite;
+    animation: animStar 100s linear infinite;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      top: -2000px;
+      width: 3px;
+      height: 3px;
+      background: transparent;
+      -webkit-box-shadow: $shadows;
+      box-shadow: $shadows;
+    }
+  }
+
+  .stars-yellow {
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    -webkit-box-shadow: $shadows6;
+    box-shadow: $shadows6;
+    -webkit-animation: animStar 180s linear infinite;
+    animation: animStar 180s linear infinite;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      top: -2000px;
+      width: 1px;
+      height: 1px;
+      background: transparent;
+      -webkit-box-shadow: $shadows6;
+      box-shadow: $shadows6;
+    }
+  }
+
+  .stars-blue {
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    -webkit-box-shadow: $shadows5;
+    box-shadow: $shadows5;
+    -webkit-animation: animStar 150s linear infinite;
+    animation: animStar 150s linear infinite;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      top: -2000px;
+      width: 2px;
+      height: 2px;
+      background: transparent;
+      -webkit-box-shadow: $shadows5;
+      box-shadow: $shadows5;
+    }
+  }
+
+  .moon {
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    z-index: 9999;
+    cursor: pointer;
+
+    img {
+      mix-blend-mode: screen;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+    }
+  }
+
+  .saturn {
+    bottom: 5%;
+    left: 90%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    animation: saturn 600s linear infinite;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+
+  .uranus {
+    top: 15%;
+    right: 20%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: saturn 1200s linear infinite;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+
+  $shooting-time: 3000ms;
+
+  .shooting-stars {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(45deg);
+    // animation: sky 200000ms linear infinite;
+  }
+
+  .shooting-star {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    // width: 100px;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+    animation:
+      tail $shooting-time ease-in-out infinite,
+      shooting $shooting-time ease-in-out infinite;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: calc(50% - 1px);
+      right: 0;
+      // width: 30px;
+      height: 2px;
+      background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+      transform: translateX(50%) rotateZ(45deg);
+      border-radius: 100%;
+      animation: shining $shooting-time ease-in-out infinite;
+    }
+
+    &::after {
+      // CodePen Error
+      // @extend .shooting_star::before;
+
+      content: '';
+      position: absolute;
+      top: calc(50% - 1px);
+      right: 0;
+      // width: 30px;
+      height: 2px;
+      background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+      transform: translateX(50%) rotateZ(45deg);
+      border-radius: 100%;
+      animation: shining $shooting-time ease-in-out infinite;
+      transform: translateX(50%) rotateZ(-45deg);
+    }
+
+    @for $i from 1 through 5 {
+      &:nth-child(#{$i}) {
+        $delay: random(9999) + 0ms;
+        top: calc(50% - #{random(400) - 200px});
+        left: calc(50% - #{random(300) + 0px});
+        animation-delay: $delay;
+        // opacity: random(50) / 100 + 0.5;
+
+        &::before,
+        &::after {
+          animation-delay: $delay;
+        }
+      }
+    }
+  }
+}
