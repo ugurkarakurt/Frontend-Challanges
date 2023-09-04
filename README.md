@@ -1,134 +1,152 @@
 ## Frontend simple challanges
 
-- Visit > [Flappy Plane](https://ugurkarakurt.github.io/Frontend-Challanges/Flappy-Plane/).
+- Visit > [Flappy Plane](https://ugurkarakurt.github.io/Frontend-Challanges/1-Flappy-Plane/)
 
-  <img src="Flappy-Plane/assets/images/screenshot.png" data-canonical-src="Flappy-Plane/assets/images/screenshot.png" width="100%"/>
+<img src="1-Flappy-Plane/screenshot.png" data-canonical-src="1-Flappy-Plane/screenshot.png" width="auto" height="300px">
 
+<hr>
+
+<br>
+
+- Visit > [Race Car](https://ugurkarakurt.github.io/Frontend-Challanges/2-Race-Car/index.html)
+  
+<img src="2-Race-Car/assets/images/video.gif" data-canonical-src="2-Race-Car/assets/images/video.gif" width="auto" height="300px"/>
+<hr>
+<br>
+
+- Visit > [Sea Way](https://ugurkarakurt.github.io/Frontend-Challanges/3-Sea-Way/index.html)
+  
+<img src="3-Sea-Way/assets/images/video.gif" data-canonical-src="3-Sea-Way/assets/images/video.gif" width="auto" height="300px"/>
+<hr>
+<br>
+
+- Visit > [Periodic Table](https://ugurkarakurt.github.io/Frontend-Challanges/4-Periodic-Table/)
+
+<img src="4-Periodic-Table/screenshot.png" data-canonical-src="/screenshot.png" width="auto" height="300px"/>
+<hr>
+<br>
+
+- Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/5-Space-Way/index.html) 
+
+<img src="5-Space-Way/assets/images/video.gif" data-canonical-src="5-Space-Way/assets/images/video.gif" width="auto" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Random Cat](https://ugurkarakurt.github.io/Frontend-Challanges/Random-Cat/).
-
-  <img src="Random-Cat/assets/img/cat.png" data-canonical-src="Random-Cat/assets/img/cat.png" width="100%"/>
-
+- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/6-Landing-Page/landing_page.html)
+  
+<img src="6-Landing-Page/screenshot.png" data-canonical-src="6-Landing-Page/screenshot.png" width="auto" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Password Generator](https://ugurkarakurt.github.io/Frontend-Challanges/Password_Generator/).
-
-  <img src="Password_Generator/screenshot.png" data-canonical-src="Password_Generator/screenshot.png" width="100%"/>
-
+- Visit > [Password Generator](https://ugurkarakurt.github.io/Frontend-Challanges/7-Password-Generator/)
+  
+<img src="7-Password-Generator/screenshot.png" data-canonical-src="7-Password-Generator/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Periodic Table](https://ugurkarakurt.github.io/Frontend-Challanges/Periodic_Table/).
 
-  <img src="Periodic_Table/screenshot.png" data-canonical-src="Periodic_Table/screenshot.png" width="100%"/>
-
+- Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/8-Toggle-Theme/)
+  
+<img src="8-Toggle-Theme/screenshot.png" data-canonical-src="8-Toggle-Theme/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Seaway](https://ugurkarakurt.github.io/Frontend-Challanges/Seaway/index.html).
-  <img src="Seaway/assets/images/video.gif" data-canonical-src="Seaway/assets/images/video.gif" width="100%"/>
 
+- Visit > [Calculator](https://ugurkarakurt.github.io/Frontend-Challanges/9-Calculator/index.html)
+  
+<img src="9-Calculator/screenshot.png" data-canonical-src="9-Calculator/screenshot.png" width="auto%" height="300px"/>
+<hr>
+
+<br>
+
+
+- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/10-Login-Register-Case/)
+  
+<img src="10-Login-Register-Case/screenshot.png" data-canonical-src="10-Login-Register-Case/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Space Way](https://ugurkarakurt.github.io/Frontend-Challanges/Space_Way/index.html).
-  <img src="Space_Way/assets/images/video.gif" data-canonical-src="Space_Way/assets/images/video.gif" width="100%"/>
 
+- Visit > [Tweet Box](https://ugurkarakurt.github.io/Frontend-Challanges/Twitter_Tweet_Box/)
+  
+<img src="11-Twitter-Tweet-Box/screenshot.png" data-canonical-src="11-Twitter-Tweet-Box/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Race Car](https://ugurkarakurt.github.io/Frontend-Challanges/Race_Car/index.html).
-<img src="Race_Car/assets/images/video.gif" data-canonical-src="Race_Car/assets/images/video.gif" width="100%"/>
+
+- Visit > [Personal Portfolio](https://ugurkarakurt.github.io/Frontend-Challanges/12-Personal-Portfolio/index.html)
+  
+<img src="12-Personal-Portfolio/screenshot.png" data-canonical-src="12-Personal-Portfolio/screenshot.png"  width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/Login-Register-Case/)
-  <img src="Login-Register-Case/screenshot.png" data-canonical-src="Login-Register-Case/screenshot.png" width="100%"/>
 
+- Visit > [Responsive Sidebar](https://ugurkarakurt.github.io/Frontend-Challanges/13-Responsive-Sidebar/index.html)
+
+<img src="13-Responsive-Sidebar/screenshot.png" data-canonical-src="13-Responsive-Sidebar/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Personal Portfolio](https://ugurkarakurt.github.io/Frontend-Challanges/Personal_Portfolio/index.html)
-  <img src="Personal_Portfolio/screenshot.png" data-canonical-src="Personal_Portfolio/screenshot.png" width="100%"/>
 
+- Visit > [Sidebar Menu](https://ugurkarakurt.github.io/Frontend-Challanges/14-Sidebar-Menu/)
+  
+<img src="14-Sidebar-Menu/screenshot.png" data-canonical-src="14-Sidebar-Menu/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Responsive Sidebar](https://ugurkarakurt.github.io/Frontend-Challanges/Responsive_Sidebar/index.html).
 
-![image info](Responsive_Sidebar/assets/images/screenshot.png)
-
+- Visit > [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/15-Responsive-Navbar/)
+  
+<img src="15-Responsive-Navbar/screenshot.png" data-canonical-src="15-Responsive-Navbar/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/Landing_Page/landing_page.html).
 
-![image info](Landing_Page/assets/images/screenshot.png)
-
+- Visit > [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/16-Moonlight-Parallax-Effect/)
+  
+<img src="16-Moonlight-Parallax-Effect/screenshot.png" data-canonical-src="16-Moonlight-Parallax-Effect/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/Toggle_Theme/).
 
-![image info](Toggle_Theme/assets/images/screenshot.png)
-
+- Visit > [Random Cat](https://ugurkarakurt.github.io/Frontend-Challanges/17-Random-Cat/)
+  
+<img src="17-Random-Cat/screenshot.png" data-canonical-src="17-Random-Cat/screenshot.png"  width="auto%" height="300px"/>
 <hr>
 <br>
 
-- Visit > [Sidebar Menu](https://ugurkarakurt.github.io/Frontend-Challanges/Sidebar_Menu/).
-
-![image info](Sidebar_Menu/assets/images/screenshot.png)
-
-<hr>
-<br>
-
-- Visit > [Calculator](https://ugurkarakurt.github.io/Frontend-Challanges/Calculator/index.html).
-
-![image info](Calculator/assets/images/screenshot.png)
-
-<hr>
-<br>
-
-- Visit > [Tweet Box](https://ugurkarakurt.github.io/Frontend-Challanges/Twitter_Tweet_Box/).
-
-![image info](Twitter_Tweet_Box/assets/images/screenshot.png)
-
-<hr>
-<br>
-
-- Visit > [Currency Converter](https://ugurkarakurt.github.io/Frontend-Challanges/Currency-Converter/index.html).
-
-![image info](Currency-Converter/assets/images/screenshot.png)
-
-<hr>
-<br>
-
-- Visit > [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/responsive_navbar/).
-
-![image info](responsive_navbar/screenshot.png)
-
-<hr>
-<br>
-
-- Visit > [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/Moonlight-Parallax-Effect/).
-
-![image info](Moonlight-Parallax-Effect/screenshot.png)
-
-<hr>
-<br>
-
-- Visit > [OrderProfs Case](https://ugurkarakurt.github.io/Frontend-Challanges/OrderProfs-Case/index.html).
-
-![image info](OrderProfs-Case/assets/images/screenshot.png)
-
-<hr>
-<br>
 
 ## Features
 
 I will share simple but useful methods under this repository day by day.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
