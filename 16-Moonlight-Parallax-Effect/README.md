@@ -1,6 +1,6 @@
 ### Simple parallax effect.
 
-- Visit > [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/16-Moonlight-Parallax-Effect/).
+- Visit > [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/16-Moonlight-Parallax-Effect/index.html).
 
 ![image info](screenshot.png)
 

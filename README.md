@@ -1,6 +1,6 @@
 ## Frontend simple challanges
 
-- Visit > [Flappy Plane](https://ugurkarakurt.github.io/Frontend-Challanges/1-Flappy-Plane/)
+- Visit > [Flappy Plane](https://ugurkarakurt.github.io/Frontend-Challanges/1-Flappy-Plane/index.html)
 
 <img src="1-Flappy-Plane/screenshot.png" data-canonical-src="1-Flappy-Plane/screenshot.png" width="auto" height="300px">
 
@@ -20,7 +20,7 @@
 <hr>
 <br>
 
-- Visit > [Periodic Table](https://ugurkarakurt.github.io/Frontend-Challanges/4-Periodic-Table/)
+- Visit > [Periodic Table](https://ugurkarakurt.github.io/Frontend-Challanges/4-Periodic-Table/index.html)
 
 <img src="4-Periodic-Table/screenshot.png" data-canonical-src="/screenshot.png" width="auto" height="300px"/>
 <hr>
@@ -33,21 +33,21 @@
 <br>
 
 
-- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/6-Landing-Page/landing_page.html)
+- Visit > [Landing Page](https://ugurkarakurt.github.io/Frontend-Challanges/6-Landing-Page/index.html)
   
 <img src="6-Landing-Page/screenshot.png" data-canonical-src="6-Landing-Page/screenshot.png" width="auto" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Password Generator](https://ugurkarakurt.github.io/Frontend-Challanges/7-Password-Generator/)
+- Visit > [Password Generator](https://ugurkarakurt.github.io/Frontend-Challanges/7-Password-Generator/index.html)
   
 <img src="7-Password-Generator/screenshot.png" data-canonical-src="7-Password-Generator/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/8-Toggle-Theme/)
+- Visit > [Toggle Theme](https://ugurkarakurt.github.io/Frontend-Challanges/8-Toggle-Theme/index.html)
   
 <img src="8-Toggle-Theme/screenshot.png" data-canonical-src="8-Toggle-Theme/screenshot.png" width="auto%" height="300px"/>
 <hr>
@@ -62,14 +62,14 @@
 <br>
 
 
-- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/10-Login-Register-Case/)
+- Visit > [Login Register Case](https://ugurkarakurt.github.io/Frontend-Challanges/10-Login-Register-Case/index.html)
   
 <img src="10-Login-Register-Case/screenshot.png" data-canonical-src="10-Login-Register-Case/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Tweet Box](https://ugurkarakurt.github.io/Frontend-Challanges/Twitter_Tweet_Box/)
+- Visit > [Tweet Box](https://ugurkarakurt.github.io/Frontend-Challanges/Twitter_Tweet_Box/index.html)
   
 <img src="11-Twitter-Tweet-Box/screenshot.png" data-canonical-src="11-Twitter-Tweet-Box/screenshot.png" width="auto%" height="300px"/>
 <hr>
@@ -90,28 +90,28 @@
 <br>
 
 
-- Visit > [Sidebar Menu](https://ugurkarakurt.github.io/Frontend-Challanges/14-Sidebar-Menu/)
+- Visit > [Sidebar Menu](https://ugurkarakurt.github.io/Frontend-Challanges/14-Sidebar-Menu/index.html)
   
 <img src="14-Sidebar-Menu/screenshot.png" data-canonical-src="14-Sidebar-Menu/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/15-Responsive-Navbar/)
+- Visit > [Responsive Navbar](https://ugurkarakurt.github.io/Frontend-Challanges/15-Responsive-Navbar/index.html)
   
 <img src="15-Responsive-Navbar/screenshot.png" data-canonical-src="15-Responsive-Navbar/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/16-Moonlight-Parallax-Effect/)
+- Visit > [Moonlight Parallax Effect](https://ugurkarakurt.github.io/Frontend-Challanges/16-Moonlight-Parallax-Effect/index.html)
   
 <img src="16-Moonlight-Parallax-Effect/screenshot.png" data-canonical-src="16-Moonlight-Parallax-Effect/screenshot.png" width="auto%" height="300px"/>
 <hr>
 <br>
 
 
-- Visit > [Random Cat](https://ugurkarakurt.github.io/Frontend-Challanges/17-Random-Cat/)
+- Visit > [Random Cat](https://ugurkarakurt.github.io/Frontend-Challanges/17-Random-Cat/index.html)
   
 <img src="17-Random-Cat/screenshot.png" data-canonical-src="17-Random-Cat/screenshot.png"  width="auto%" height="300px"/>
 <hr>
